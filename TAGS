@@ -1,0 +1,2302 @@
+
+config/initializers/factory_girl.rb,105
+  class ActiveSupport::TestCaseTestCase3,0
+  class ActiveSupport::TestCaseActiveSupport::TestCase3,0
+
+config/initializers/exceptions.rb,92
+class RemovingLastTeamAdminException < RuntimeError; endRemovingLastTeamAdminException1,0
+
+config/application.rb,162
+module LighthouseLighthouse10,0
+  class Application < Rails::ApplicationApplication11,0
+  class Application < Rails::ApplicationLighthouse::Application11,0
+
+test/models/scaffolding/completely_concrete/tangible_thing_test.rb,243
+class Scaffolding::CompletelyConcrete::TangibleThingTest < ActiveSupport::TestCaseTangibleThingTest3,0
+class Scaffolding::CompletelyConcrete::TangibleThingTest < ActiveSupport::TestCaseScaffolding::CompletelyConcrete::TangibleThingTest3,0
+
+test/models/scaffolding/absolutely_abstract/creative_concepts/collaborator_test.rb,293
+class Scaffolding::AbsolutelyAbstract::CreativeConcepts::CollaboratorTest < ActiveSupport::TestCaseCollaboratorTest3,0
+class Scaffolding::AbsolutelyAbstract::CreativeConcepts::CollaboratorTest < ActiveSupport::TestCaseScaffolding::AbsolutelyAbstract::CreativeConcepts::CollaboratorTest3,0
+
+test/models/scaffolding/absolutely_abstract/creative_concept_test.rb,251
+class Scaffolding::AbsolutelyAbstract::CreativeConceptTest < ActiveSupport::TestCaseCreativeConceptTest3,0
+class Scaffolding::AbsolutelyAbstract::CreativeConceptTest < ActiveSupport::TestCaseScaffolding::AbsolutelyAbstract::CreativeConceptTest3,0
+
+test/models/municipality_test.rb,70
+class MunicipalityTest < ActiveSupport::TestCaseMunicipalityTest3,0
+
+test/models/webhooks/incoming/stripe_installation_webhook_test.rb,252
+class Webhooks::Incoming::StripeInstallationWebhookTest < ActiveSupport::TestCaseStripeInstallationWebhookTest3,0
+class Webhooks::Incoming::StripeInstallationWebhookTest < ActiveSupport::TestCaseWebhooks::Incoming::StripeInstallationWebhookTest3,0
+
+test/models/integrations/stripe_installation_test.rb,206
+class Integrations::StripeInstallationTest < ActiveSupport::TestCaseStripeInstallationTest3,0
+class Integrations::StripeInstallationTest < ActiveSupport::TestCaseIntegrations::StripeInstallationTest3,0
+
+test/models/invitation_test.rb,88
+class InvitationTest < ActiveSupport::TestCaseInvitationTest3,0
+  def setupsetup4,0
+
+test/models/service_provider_test.rb,76
+class ServiceProviderTest < ActiveSupport::TestCaseServiceProviderTest3,0
+
+test/models/user_test.rb,76
+class UserTest < ActiveSupport::TestCaseUserTest3,0
+  def setupsetup4,0
+
+test/models/oauth/stripe_account_test.rb,165
+class Oauth::StripeAccountTest < ActiveSupport::TestCaseStripeAccountTest3,0
+class Oauth::StripeAccountTest < ActiveSupport::TestCaseOauth::StripeAccountTest3,0
+
+test/models/ability_test.rb,628
+module AbilityTestAbilityTest3,0
+  class TeamMemberScenarios < ActiveSupport::TestCaseTeamMemberScenarios4,0
+  class TeamMemberScenarios < ActiveSupport::TestCaseAbilityTest::TeamMemberScenarios4,0
+    def setupsetup5,0
+  class NonTeamMemberScenarios < ActiveSupport::TestCaseNonTeamMemberScenarios31,0
+  class NonTeamMemberScenarios < ActiveSupport::TestCaseAbilityTest::NonTeamMemberScenarios31,0
+    def setupsetup32,0
+  class TeamAdminScenarios < ActiveSupport::TestCaseTeamAdminScenarios56,0
+  class TeamAdminScenarios < ActiveSupport::TestCaseAbilityTest::TeamAdminScenarios56,0
+    def setupsetup57,0
+
+test/models/organization_test.rb,70
+class OrganizationTest < ActiveSupport::TestCaseOrganizationTest3,0
+
+test/support/waiting.rb,74
+module WaitingWaiting1,0
+  def wait_by_true(condition)wait_by_true2,0
+
+test/application_system_test_case.rb,1958
+class ApplicationSystemTestCase < ActionDispatch::SystemTestCaseApplicationSystemTestCase24,0
+  def setupsetup36,0
+  def teardownteardown42,0
+  def resize_for(display_details)resize_for63,0
+  def within_team_menu_for(display_details)within_team_menu_for67,0
+  def open_mobile_menuopen_mobile_menu73,0
+  def sign_out_for(display_details)sign_out_for78,0
+  def sign_in_from_homepage_for(display_details)sign_in_from_homepage_for94,0
+  def sign_up_from_homepage_for(display_details)sign_up_from_homepage_for103,0
+  def within_homepage_navigation_for(display_details)within_homepage_navigation_for112,0
+  def within_primary_menu_for(display_details)within_primary_menu_for119,0
+  def be_invited_to_sign_upbe_invited_to_sign_up126,0
+  def select2_select(label, string)select2_select131,0
+  def assert_no_js_errorsassert_no_js_errors143,0
+  def find_stimulus_controller_for_label(label, stimulus_controller, wrapper = false)find_stimulus_controller_for_label157,0
+  def set_element_attribute(element, attribute, value)set_element_attribute166,0
+  def disconnect_stimulus_controller_on(element)disconnect_stimulus_controller_on174,0
+  def reconnect_stimulus_controller_on(element)reconnect_stimulus_controller_on179,0
+  def improperly_disconnect_and_reconnect_stimulus_controller_on(element)improperly_disconnect_and_reconnect_stimulus_controller_on183,0
+  def calculate_resolution(display_details)calculate_resolution197,0
+  module ::Selenium::WebDriver::RemoteRemote204,0
+  module ::Selenium::WebDriver::RemoteApplicationSystemTestCase::Selenium::WebDriver::Remote204,0
+    class BridgeBridge205,0
+    class BridgeApplicationSystemTestCase::Selenium::WebDriver::Remote::Bridge205,0
+      alias_method :patched_execute, :executepatched_execute207,0
+      def execute(*args)execute208,0
+      def self.slow_down_execute_timeslow_down_execute_time213,0
+      def self.reset_execute_timereset_execute_time217,0
+
+test/controllers/application/localization_test.rb,142
+class ApplicationControllerTest < ActionController::TestCaseApplicationControllerTest3,0
+  def setupsetup6,0
+  def teardownteardown28,0
+
+test/controllers/api/test.rb,316
+class Api::Test < ActionDispatch::IntegrationTestTest1,0
+class Api::Test < ActionDispatch::IntegrationTestApi::Test1,0
+  def access_tokenaccess_token7,0
+  def another_access_tokenanother_access_token20,0
+  def assert_response_specific_not_foundassert_response_specific_not_found33,0
+  def setupsetup40,0
+
+test/controllers/api/v1/scaffolding/completely_concrete/tangible_things_endpoint_test.rb,406
+class Api::V1::Scaffolding::CompletelyConcrete::TangibleThingsEndpointTest < Api::TestTangibleThingsEndpointTest4,0
+class Api::V1::Scaffolding::CompletelyConcrete::TangibleThingsEndpointTest < Api::TestApi::V1::Scaffolding::CompletelyConcrete::TangibleThingsEndpointTest4,0
+    def setupsetup8,0
+    def assert_proper_object_serialization(tangible_thing_data)assert_proper_object_serialization22,0
+
+test/controllers/api/v1/organizations_endpoint_test.rb,301
+class Api::V1::OrganizationsEndpointTest < Api::TestOrganizationsEndpointTest4,0
+class Api::V1::OrganizationsEndpointTest < Api::TestApi::V1::OrganizationsEndpointTest4,0
+    def setupsetup7,0
+    def assert_proper_object_serialization(organization_data)assert_proper_object_serialization17,0
+
+test/controllers/api/v1/service_providers_endpoint_test.rb,317
+class Api::V1::ServiceProvidersEndpointTest < Api::TestServiceProvidersEndpointTest4,0
+class Api::V1::ServiceProvidersEndpointTest < Api::TestApi::V1::ServiceProvidersEndpointTest4,0
+    def setupsetup7,0
+    def assert_proper_object_serialization(service_provider_data)assert_proper_object_serialization19,0
+
+test/controllers/api/v1/teams_endpoint_test.rb,257
+class Api::V1::TeamsEndpointTest < Api::TestTeamsEndpointTest4,0
+class Api::V1::TeamsEndpointTest < Api::TestApi::V1::TeamsEndpointTest4,0
+  def setupsetup7,0
+  def assert_proper_object_serialization(team_data)assert_proper_object_serialization14,0
+
+test/controllers/api/v1/webhooks/outgoing/endpoints_endpoint_test.rb,337
+class Api::V1::Webhooks::Outgoing::EndpointsEndpointTest < Api::TestEndpointsEndpointTest4,0
+class Api::V1::Webhooks::Outgoing::EndpointsEndpointTest < Api::TestApi::V1::Webhooks::Outgoing::EndpointsEndpointTest4,0
+  def setupsetup7,0
+  def assert_proper_object_serialization(endpoint_data)assert_proper_object_serialization17,0
+
+test/controllers/api/v1/webhooks/outgoing/delivery_attempts_endpoint_test.rb,373
+class Api::V1::Webhooks::Outgoing::DeliveryAttemptsEndpointTest < Api::TestDeliveryAttemptsEndpointTest4,0
+class Api::V1::Webhooks::Outgoing::DeliveryAttemptsEndpointTest < Api::TestApi::V1::Webhooks::Outgoing::DeliveryAttemptsEndpointTest4,0
+  def setupsetup7,0
+  def assert_proper_object_serialization(delivery_attempt_data)assert_proper_object_serialization19,0
+
+test/controllers/api/v1/webhooks/outgoing/deliveries_endpoint_test.rb,341
+class Api::V1::Webhooks::Outgoing::DeliveriesEndpointTest < Api::TestDeliveriesEndpointTest4,0
+class Api::V1::Webhooks::Outgoing::DeliveriesEndpointTest < Api::TestApi::V1::Webhooks::Outgoing::DeliveriesEndpointTest4,0
+  def setupsetup7,0
+  def assert_proper_object_serialization(delivery_data)assert_proper_object_serialization18,0
+
+test/controllers/api/v1/municipalities_endpoint_test.rb,305
+class Api::V1::MunicipalitiesEndpointTest < Api::TestMunicipalitiesEndpointTest4,0
+class Api::V1::MunicipalitiesEndpointTest < Api::TestApi::V1::MunicipalitiesEndpointTest4,0
+    def setupsetup7,0
+    def assert_proper_object_serialization(municipality_data)assert_proper_object_serialization18,0
+
+test/controllers/account/scaffolding/completely_concrete/tangible_things_controller_test.rb,354
+class Account::Scaffolding::CompletelyConcrete::TangibleThingsControllerTest < ActionDispatch::IntegrationTestTangibleThingsControllerTest3,0
+class Account::Scaffolding::CompletelyConcrete::TangibleThingsControllerTest < ActionDispatch::IntegrationTestAccount::Scaffolding::CompletelyConcrete::TangibleThingsControllerTest3,0
+    def setupsetup7,0
+
+test/controllers/account/scaffolding/absolutely_abstract/creative_concepts/collaborators_controller_test.rb,402
+class Account::Scaffolding::AbsolutelyAbstract::CreativeConcepts::CollaboratorsControllerTest < ActionDispatch::IntegrationTestCollaboratorsControllerTest3,0
+class Account::Scaffolding::AbsolutelyAbstract::CreativeConcepts::CollaboratorsControllerTest < ActionDispatch::IntegrationTestAccount::Scaffolding::AbsolutelyAbstract::CreativeConcepts::CollaboratorsControllerTest3,0
+  def setupsetup6,0
+
+test/controllers/account/scaffolding/absolutely_abstract/creative_concepts_controller_test.rb,362
+class Account::Scaffolding::AbsolutelyAbstract::CreativeConceptsControllerTest < ActionDispatch::IntegrationTestCreativeConceptsControllerTest3,0
+class Account::Scaffolding::AbsolutelyAbstract::CreativeConceptsControllerTest < ActionDispatch::IntegrationTestAccount::Scaffolding::AbsolutelyAbstract::CreativeConceptsControllerTest3,0
+    def setupsetup7,0
+
+test/controllers/account/platform/applications_controller_test.rb,275
+class Account::Platform::ApplicationsControllerTest < ActionDispatch::IntegrationTestApplicationsControllerTest3,0
+class Account::Platform::ApplicationsControllerTest < ActionDispatch::IntegrationTestAccount::Platform::ApplicationsControllerTest3,0
+  def setupsetup6,0
+
+test/controllers/account/teams_controller_test.rb,217
+class Account::TeamsControllerTest < ActionDispatch::IntegrationTestTeamsControllerTest3,0
+class Account::TeamsControllerTest < ActionDispatch::IntegrationTestAccount::TeamsControllerTest3,0
+  def setupsetup6,0
+
+test/channels/application_cable/connection_test.rb,206
+class ApplicationCable::ConnectionTest < ActionCable::Connection::TestCaseConnectionTest3,0
+class ApplicationCable::ConnectionTest < ActionCable::Connection::TestCaseApplicationCable::ConnectionTest3,0
+
+test/system/membership_test.rb,298
+class MembershipSystemTest < ApplicationSystemTestCaseMembershipSystemTest3,0
+  def within_membership_row(membership)within_membership_row4,0
+  def within_current_memberships_tablewithin_current_memberships_table10,0
+  def within_former_memberships_tablewithin_former_memberships_table16,0
+
+test/system/dates_helper_test.rb,70
+class DatesHelperTest < ApplicationSystemTestCaseDatesHelperTest3,0
+
+test/system/account_management_test.rb,94
+class AccountManagementSystemTest < ApplicationSystemTestCaseAccountManagementSystemTest3,0
+
+test/system/invitation_details_test.rb,92
+class InvitationsTest < ApplicationSystemTestCaseInvitationsTest3,0
+  def setupsetup4,0
+
+test/system/super_scaffolding_partial_test.rb,114
+class SuperScaffoldingSystemTest < ApplicationSystemTestCaseSuperScaffoldingSystemTest3,0
+  def setupsetup4,0
+
+test/system/resolver_system_test.rb,76
+class ResolverSystemTest < ApplicationSystemTestCaseResolverSystemTest3,0
+
+test/system/pagination_test.rb,90
+class PaginationTest < ApplicationSystemTestCasePaginationTest3,0
+  def setupsetup4,0
+
+test/system/basics_test.rb,60
+class BasicsTest < ApplicationSystemTestCaseBasicsTest3,0
+
+test/system/teams_test.rb,80
+class TeamsTest < ApplicationSystemTestCaseTeamsTest3,0
+  def setupsetup4,0
+
+test/system/webhooks_system_test.rb,98
+class WebhooksSystemTest < ApplicationSystemTestCaseWebhooksSystemTest3,0
+  def setupsetup4,0
+
+test/system/account_test.rb,84
+class AccountTest < ApplicationSystemTestCaseAccountTest3,0
+  def setupsetup4,0
+
+test/system/two_factor_authentication_test.rb,110
+class TwoFactorAuthentication < ApplicationSystemTestCaseTwoFactorAuthentication3,0
+    def setupsetup5,0
+
+test/system/authentication_test.rb,88
+class AuthenticationSystemTest < ApplicationSystemTestCaseAuthenticationSystemTest3,0
+
+test/system/tangible_thing_test.rb,76
+  class TangibleThingTest < ApplicationSystemTestCaseTangibleThingTest4,0
+
+test/system/invitations_test.rb,300
+class InvitationDetailsTest < ApplicationSystemTestCaseInvitationDetailsTest3,0
+  def within_membership_row(membership)within_membership_row4,0
+  def within_current_memberships_tablewithin_current_memberships_table10,0
+  def within_former_memberships_tablewithin_former_memberships_table16,0
+
+test/system/reactivity_system_test.rb,137
+  class ReactivitySystemTest < ApplicationSystemTestCaseReactivitySystemTest4,0
+    def setupsetup5,0
+    def teardownteardown10,0
+
+test/system/fields_test.rb,64
+  class AccountTest < ApplicationSystemTestCaseAccountTest4,0
+
+test/system/super_scaffolding_test.rb,114
+class SuperScaffoldingSystemTest < ApplicationSystemTestCaseSuperScaffoldingSystemTest3,0
+  def setupsetup4,0
+
+lib/bullet_train.rb,46
+def any_oauth_enabled?any_oauth_enabled?5,0
+
+app/jobs/application_job.rb,58
+class ApplicationJob < ActiveJob::BaseApplicationJob1,0
+
+app/models/team.rb,308
+class Team < ApplicationRecordTeam1,0
+  has_many :organizations, dependent: :destroyorganizations8,0
+  has_many :organizations, dependent: :destroyorganizations=8,0
+  has_many :organizations, dependent: :destroyorganization_ids8,0
+  has_many :organizations, dependent: :destroyorganization_ids=8,0
+
+app/models/municipality.rb,870
+class Municipality < ApplicationRecordMunicipality1,0
+  belongs_to :organizationorganization6,0
+  belongs_to :organizationorganization=6,0
+  belongs_to :organizationbuild_organization6,0
+  belongs_to :organizationcreate_organization6,0
+  belongs_to :organizationcreate_organization!6,0
+  has_many :service_providers, dependent: :destroyservice_providers9,0
+  has_many :service_providers, dependent: :destroyservice_providers=9,0
+  has_many :service_providers, dependent: :destroyservice_provider_ids9,0
+  has_many :service_providers, dependent: :destroyservice_provider_ids=9,0
+  has_one :team, through: :organizationteam12,0
+  has_one :team, through: :organizationteam=12,0
+  has_one :team, through: :organizationbuild_team12,0
+  has_one :team, through: :organizationcreate_team12,0
+  has_one :team, through: :organizationcreate_team!12,0
+
+app/models/user.rb,40
+class User < ApplicationRecordUser1,0
+
+app/models/organization.rb,494
+class Organization < ApplicationRecordOrganization1,0
+  belongs_to :teamteam6,0
+  belongs_to :teamteam=6,0
+  belongs_to :teambuild_team6,0
+  belongs_to :teamcreate_team6,0
+  belongs_to :teamcreate_team!6,0
+  has_many :municipalities, dependent: :destroymunicipalities9,0
+  has_many :municipalities, dependent: :destroymunicipalities=9,0
+  has_many :municipalities, dependent: :destroymunicipalitie_ids9,0
+  has_many :municipalities, dependent: :destroymunicipalitie_ids=9,0
+
+app/models/current.rb,61
+class Current < ActiveSupport::CurrentAttributesCurrent2,0
+
+app/models/invitation.rb,52
+class Invitation < ApplicationRecordInvitation1,0
+
+app/models/service_provider.rb,631
+class ServiceProvider < ApplicationRecordServiceProvider1,0
+  belongs_to :municipalitymunicipality6,0
+  belongs_to :municipalitymunicipality=6,0
+  belongs_to :municipalitybuild_municipality6,0
+  belongs_to :municipalitycreate_municipality6,0
+  belongs_to :municipalitycreate_municipality!6,0
+  has_one :team, through: :municipalityteam11,0
+  has_one :team, through: :municipalityteam=11,0
+  has_one :team, through: :municipalitybuild_team11,0
+  has_one :team, through: :municipalitycreate_team11,0
+  has_one :team, through: :municipalitycreate_team!11,0
+  def reject_blank_servicesreject_blank_services26,0
+
+app/models/application_record.rb,67
+class ApplicationRecord < ActiveRecord::BaseApplicationRecord1,0
+
+app/models/membership.rb,52
+class Membership < ApplicationRecordMembership1,0
+
+app/models/ability.rb,64
+class AbilityAbility1,0
+  def initialize(user)initialize5,0
+
+app/models/application_hash.rb,61
+class ApplicationHash < ActiveHash::BaseApplicationHash1,0
+
+app/serializers/api/v1/application_serializer.rb,135
+class Api::V1::ApplicationSerializerApplicationSerializer1,0
+class Api::V1::ApplicationSerializerApi::V1::ApplicationSerializer1,0
+
+app/serializers/api/v1/organization_serializer.rb,557
+class Api::V1::OrganizationSerializer < Api::V1::ApplicationSerializerOrganizationSerializer1,0
+class Api::V1::OrganizationSerializer < Api::V1::ApplicationSerializerApi::V1::OrganizationSerializer1,0
+  belongs_to :team, serializer: Api::V1::TeamSerializerteam11,0
+  belongs_to :team, serializer: Api::V1::TeamSerializerteam=11,0
+  belongs_to :team, serializer: Api::V1::TeamSerializerbuild_team11,0
+  belongs_to :team, serializer: Api::V1::TeamSerializercreate_team11,0
+  belongs_to :team, serializer: Api::V1::TeamSerializercreate_team!11,0
+
+app/serializers/api/v1/membership_serializer.rb,197
+class Api::V1::MembershipSerializer < Api::V1::ApplicationSerializerMembershipSerializer1,0
+class Api::V1::MembershipSerializer < Api::V1::ApplicationSerializerApi::V1::MembershipSerializer1,0
+
+app/serializers/api/v1/service_provider_serializer.rb,689
+class Api::V1::ServiceProviderSerializer < Api::V1::ApplicationSerializerServiceProviderSerializer1,0
+class Api::V1::ServiceProviderSerializer < Api::V1::ApplicationSerializerApi::V1::ServiceProviderSerializer1,0
+  belongs_to :municipality, serializer: Api::V1::MunicipalitySerializermunicipality21,0
+  belongs_to :municipality, serializer: Api::V1::MunicipalitySerializermunicipality=21,0
+  belongs_to :municipality, serializer: Api::V1::MunicipalitySerializerbuild_municipality21,0
+  belongs_to :municipality, serializer: Api::V1::MunicipalitySerializercreate_municipality21,0
+  belongs_to :municipality, serializer: Api::V1::MunicipalitySerializercreate_municipality!21,0
+
+app/serializers/api/v1/user_serializer.rb,173
+class Api::V1::UserSerializer < Api::V1::ApplicationSerializerUserSerializer1,0
+class Api::V1::UserSerializer < Api::V1::ApplicationSerializerApi::V1::UserSerializer1,0
+
+app/serializers/api/v1/invitation_serializer.rb,197
+class Api::V1::InvitationSerializer < Api::V1::ApplicationSerializerInvitationSerializer1,0
+class Api::V1::InvitationSerializer < Api::V1::ApplicationSerializerApi::V1::InvitationSerializer1,0
+
+app/serializers/api/v1/team_serializer.rb,173
+class Api::V1::TeamSerializer < Api::V1::ApplicationSerializerTeamSerializer1,0
+class Api::V1::TeamSerializer < Api::V1::ApplicationSerializerApi::V1::TeamSerializer1,0
+
+app/serializers/api/v1/municipality_serializer.rb,677
+class Api::V1::MunicipalitySerializer < Api::V1::ApplicationSerializerMunicipalitySerializer1,0
+class Api::V1::MunicipalitySerializer < Api::V1::ApplicationSerializerApi::V1::MunicipalitySerializer1,0
+  belongs_to :organization, serializer: Api::V1::OrganizationSerializerorganization12,0
+  belongs_to :organization, serializer: Api::V1::OrganizationSerializerorganization=12,0
+  belongs_to :organization, serializer: Api::V1::OrganizationSerializerbuild_organization12,0
+  belongs_to :organization, serializer: Api::V1::OrganizationSerializercreate_organization12,0
+  belongs_to :organization, serializer: Api::V1::OrganizationSerializercreate_organization!12,0
+
+app/mailers/application_mailer.rb,67
+class ApplicationMailer < ActionMailer::BaseApplicationMailer1,0
+
+app/controllers/api/v1/service_providers_endpoint.rb,179
+class Api::V1::ServiceProvidersEndpoint < Api::V1::RootServiceProvidersEndpoint1,0
+class Api::V1::ServiceProvidersEndpoint < Api::V1::RootApi::V1::ServiceProvidersEndpoint1,0
+
+app/controllers/api/v1/municipalities_endpoint.rb,171
+class Api::V1::MunicipalitiesEndpoint < Api::V1::RootMunicipalitiesEndpoint1,0
+class Api::V1::MunicipalitiesEndpoint < Api::V1::RootApi::V1::MunicipalitiesEndpoint1,0
+
+app/controllers/api/v1/teams_endpoint.rb,219
+class Api::V1::TeamsEndpoint < Api::V1::RootTeamsEndpoint1,0
+class Api::V1::TeamsEndpoint < Api::V1::RootApi::V1::TeamsEndpoint1,0
+  PARAMS = proc doPARAMS2,0
+  PARAMS = proc doApi::V1::TeamsEndpoint::PARAMS2,0
+
+app/controllers/api/v1/organizations_endpoint.rb,167
+class Api::V1::OrganizationsEndpoint < Api::V1::RootOrganizationsEndpoint1,0
+class Api::V1::OrganizationsEndpoint < Api::V1::RootApi::V1::OrganizationsEndpoint1,0
+
+app/controllers/api/v1/root.rb,91
+class Api::V1::Root < Api::BaseRoot1,0
+class Api::V1::Root < Api::BaseApi::V1::Root1,0
+
+app/controllers/account/municipalities_controller.rb,424
+class Account::MunicipalitiesController < Account::ApplicationControllerMunicipalitiesController1,0
+class Account::MunicipalitiesController < Account::ApplicationControllerAccount::MunicipalitiesController1,0
+  def indexindex6,0
+  def showshow13,0
+  def newnew17,0
+  def editedit21,0
+  def createcreate26,0
+  def updateupdate40,0
+  def destroydestroy54,0
+  def municipality_paramsmunicipality_params65,0
+
+app/controllers/account/memberships_controller.rb,346
+class Account::MembershipsController < Account::ApplicationControllerMembershipsController1,0
+class Account::MembershipsController < Account::ApplicationControllerAccount::MembershipsController1,0
+  def permitted_fieldspermitted_fields6,0
+  def permitted_arrayspermitted_arrays12,0
+  def process_params(strong_params)process_params18,0
+
+app/controllers/account/teams_controller.rb,322
+class Account::TeamsController < Account::ApplicationControllerTeamsController1,0
+class Account::TeamsController < Account::ApplicationControllerAccount::TeamsController1,0
+  def permitted_fieldspermitted_fields6,0
+  def permitted_arrayspermitted_arrays13,0
+  def process_params(strong_params)process_params19,0
+
+app/controllers/account/users_controller.rb,322
+class Account::UsersController < Account::ApplicationControllerUsersController1,0
+class Account::UsersController < Account::ApplicationControllerAccount::UsersController1,0
+  def permitted_fieldspermitted_fields6,0
+  def permitted_arrayspermitted_arrays12,0
+  def process_params(strong_params)process_params18,0
+
+app/controllers/account/application_controller.rb,253
+class Account::ApplicationController < ApplicationControllerApplicationController1,0
+class Account::ApplicationController < ApplicationControllerAccount::ApplicationController1,0
+  def ensure_onboarding_is_completeensure_onboarding_is_complete4,0
+
+app/controllers/account/organizations_controller.rb,420
+class Account::OrganizationsController < Account::ApplicationControllerOrganizationsController1,0
+class Account::OrganizationsController < Account::ApplicationControllerAccount::OrganizationsController1,0
+  def indexindex6,0
+  def showshow13,0
+  def newnew17,0
+  def editedit21,0
+  def createcreate26,0
+  def updateupdate40,0
+  def destroydestroy54,0
+  def organization_paramsorganization_params65,0
+
+app/controllers/account/oauth/omniauth_callbacks_controller.rb,296
+class Account::Oauth::OmniauthCallbacksController < Devise::OmniauthCallbacksControllerOmniauthCallbacksController1,0
+class Account::Oauth::OmniauthCallbacksController < Devise::OmniauthCallbacksControllerAccount::Oauth::OmniauthCallbacksController1,0
+  def stripe_connectstripe_connect5,0
+
+app/controllers/account/dashboard_controller.rb,215
+class Account::DashboardController < Account::ApplicationControllerDashboardController1,0
+class Account::DashboardController < Account::ApplicationControllerAccount::DashboardController1,0
+  def indexindex2,0
+
+app/controllers/account/service_providers_controller.rb,440
+class Account::ServiceProvidersController < Account::ApplicationControllerServiceProvidersController1,0
+class Account::ServiceProvidersController < Account::ApplicationControllerAccount::ServiceProvidersController1,0
+  def indexindex6,0
+  def showshow13,0
+  def newnew17,0
+  def editedit21,0
+  def createcreate26,0
+  def updateupdate40,0
+  def destroydestroy54,0
+  def service_provider_paramsservice_provider_params65,0
+
+app/controllers/public/application_controller.rb,180
+class Public::ApplicationController < ApplicationControllerApplicationController1,0
+class Public::ApplicationController < ApplicationControllerPublic::ApplicationController1,0
+
+app/controllers/public/home_controller.rb,168
+class Public::HomeController < Public::ApplicationControllerHomeController1,0
+class Public::HomeController < Public::ApplicationControllerPublic::HomeController1,0
+
+app/controllers/application_controller.rb,79
+class ApplicationController < ActionController::BaseApplicationController1,0
+
+app/mailboxes/application_mailbox.rb,70
+class ApplicationMailbox < ActionMailbox::BaseApplicationMailbox1,0
+
+app/helpers/application_helper.rb,47
+module ApplicationHelperApplicationHelper1,0
+
+app/channels/application_cable/connection.rb,223
+module ApplicationCableApplicationCable1,0
+  class Connection < ActionCable::Connection::BaseConnection2,0
+  class Connection < ActionCable::Connection::BaseApplicationCable::Connection2,0
+    def connectconnect5,0
+
+app/channels/application_cable/channel.rb,221
+module ApplicationCableApplicationCable1,0
+  class Channel < ActionCable::Channel::BaseChannel2,0
+  class Channel < ActionCable::Channel::BaseApplicationCable::Channel2,0
+    def current_abilitycurrent_ability3,0
+
+db/migrate/20170908205756_add_names_to_user.rb,95
+class AddNamesToUser < ActiveRecord::Migration[5.1]AddNamesToUser1,0
+  def changechange2,0
+
+db/migrate/20180420013505_create_webhooks_outgoing_endpoint_event_types.rb,147
+class CreateWebhooksOutgoingEndpointEventTypes < ActiveRecord::Migration[5.2]CreateWebhooksOutgoingEndpointEventTypes1,0
+  def changechange2,0
+
+db/migrate/20171104204911_remove_url_from_thing.rb,103
+class RemoveUrlFromThing < ActiveRecord::Migration[5.1]RemoveUrlFromThing1,0
+  def changechange2,0
+
+db/migrate/20210805060451_change_body_to_data_on_webhooks_outgoing_events.rb,147
+class ChangeBodyToDataOnWebhooksOutgoingEvents < ActiveRecord::Migration[6.1]ChangeBodyToDataOnWebhooksOutgoingEvents1,0
+  def changechange2,0
+
+db/migrate/20210109170223_move_trix_editor_value_from_tangible_things_to_action_text.rb,165
+class MoveTrixEditorValueFromTangibleThingsToActionText < ActiveRecord::Migration[6.1]MoveTrixEditorValueFromTangibleThingsToActionText1,0
+  def changechange2,0
+
+db/migrate/20211020191034_drop_api_keys.rb,89
+class DropApiKeys < ActiveRecord::Migration[6.1]DropApiKeys1,0
+  def changechange2,0
+
+db/migrate/20190310235546_create_webhooks_incoming_stripe_webhooks.rb,139
+class CreateWebhooksIncomingStripeWebhooks < ActiveRecord::Migration[5.2]CreateWebhooksIncomingStripeWebhooks1,0
+  def changechange2,0
+
+db/migrate/20210511152851_add_application_id_to_oauth_access_grants.rb,137
+class AddApplicationIdToOauthAccessGrants < ActiveRecord::Migration[6.1]AddApplicationIdToOauthAccessGrants1,0
+  def changechange2,0
+
+db/migrate/20210304200925_add_encrypted_secret_to_api_keys.rb,121
+class AddEncryptedSecretToApiKeys < ActiveRecord::Migration[6.1]AddEncryptedSecretToApiKeys1,0
+  def changechange2,0
+
+db/migrate/20161116003852_add_api_key_to_user.rb,97
+class AddApiKeyToUser < ActiveRecord::Migration[5.0]AddApiKeyToUser1,0
+  def changechange2,0
+
+db/migrate/20210317150916_add_uid_uniqueness_to_oauth_stripe_accounts.rb,141
+class AddUidUniquenessToOauthStripeAccounts < ActiveRecord::Migration[6.1]AddUidUniquenessToOauthStripeAccounts1,0
+  def changechange2,0
+
+db/migrate/20211126230846_add_event_type_ids_to_webhooks_outgoing_endpoints.rb,151
+class AddEventTypeIdsToWebhooksOutgoingEndpoints < ActiveRecord::Migration[6.1]AddEventTypeIdsToWebhooksOutgoingEndpoints1,0
+  def changechange2,0
+
+db/migrate/20211127013800_add_new_event_type_id_to_webhooks_outgoing_events.rb,149
+class AddNewEventTypeIdToWebhooksOutgoingEvents < ActiveRecord::Migration[6.1]AddNewEventTypeIdToWebhooksOutgoingEvents1,0
+  def changechange2,0
+
+db/migrate/20180425034740_rename_things.rb,91
+class RenameThings < ActiveRecord::Migration[5.2]RenameThings1,0
+  def changechange2,0
+
+db/migrate/20191021215724_add_example_fields_to_scaffolding_things.rb,137
+class AddExampleFieldsToScaffoldingThings < ActiveRecord::Migration[6.0]AddExampleFieldsToScaffoldingThings1,0
+  def changechange2,0
+
+db/migrate/20161115160419_devise_create_users.rb,101
+class DeviseCreateUsers < ActiveRecord::Migration[5.0]DeviseCreateUsers1,0
+  def changechange2,0
+
+db/migrate/20200211034208_add_invitation_to_membership.rb,117
+class AddInvitationToMembership < ActiveRecord::Migration[6.0]AddInvitationToMembership1,0
+  def changechange2,0
+
+db/migrate/20200726222314_add_being_destroyed_to_team.rb,113
+class AddBeingDestroyedToTeam < ActiveRecord::Migration[6.0]AddBeingDestroyedToTeam1,0
+  def changechange2,0
+
+db/migrate/20210304133200_add_time_zone_to_team.rb,101
+class AddTimeZoneToTeam < ActiveRecord::Migration[6.1]AddTimeZoneToTeam1,0
+  def changechange2,0
+
+db/migrate/20190106013242_create_active_storage_tables.active_storage.rb,117
+class CreateActiveStorageTables < ActiveRecord::Migration[5.2]CreateActiveStorageTables2,0
+  def changechange3,0
+
+db/migrate/20200101203645_drop_scaffolding_things.rb,121
+class DropScaffoldingThings < ActiveRecord::Migration[6.0]DropScaffoldingThings1,0
+  def upup2,0
+  def downdown6,0
+
+db/migrate/20180420172112_add_error_message_to_webhooks_outgoing_delivery_attempt.rb,163
+class AddErrorMessageToWebhooksOutgoingDeliveryAttempt < ActiveRecord::Migration[5.2]AddErrorMessageToWebhooksOutgoingDeliveryAttempt1,0
+  def changechange2,0
+
+db/migrate/20180706214509_create_oauth_stripe_accounts.rb,117
+class CreateOauthStripeAccounts < ActiveRecord::Migration[5.2]CreateOauthStripeAccounts1,0
+  def changechange2,0
+
+db/migrate/20180420021016_create_webhooks_outgoing_deliveries.rb,131
+class CreateWebhooksOutgoingDeliveries < ActiveRecord::Migration[5.2]CreateWebhooksOutgoingDeliveries1,0
+  def changechange2,0
+
+db/migrate/20161117154605_create_teams.rb,89
+class CreateTeams < ActiveRecord::Migration[5.0]CreateTeams1,0
+  def changechange2,0
+
+db/migrate/20180902195848_remove_admin_from_invitation.rb,117
+class RemoveAdminFromInvitation < ActiveRecord::Migration[5.2]RemoveAdminFromInvitation1,0
+  def changechange2,0
+
+db/migrate/20200328205444_create_memberships_reassignments_assignments.rb,149
+class CreateMembershipsReassignmentsAssignments < ActiveRecord::Migration[6.0]CreateMembershipsReassignmentsAssignments1,0
+  def changechange2,0
+
+db/migrate/20210109142834_create_action_text_tables.action_text.rb,111
+class CreateActionTextTables < ActiveRecord::Migration[6.0]CreateActionTextTables2,0
+  def changechange3,0
+
+db/migrate/20180902154652_migrate_admin_flag_on_invitations.rb,137
+class MigrateAdminFlagOnInvitations < ActiveRecord::Migration[5.2]MigrateAdminFlagOnInvitations1,0
+  def upup2,0
+  def downdown9,0
+
+db/migrate/20191204020913_create_scaffolding_completely_concrete_tangible_things.rb,165
+class CreateScaffoldingCompletelyConcreteTangibleThings < ActiveRecord::Migration[6.0]CreateScaffoldingCompletelyConcreteTangibleThings1,0
+  def changechange2,0
+
+db/migrate/20180420013127_create_webhooks_outgoing_endpoints.rb,129
+class CreateWebhooksOutgoingEndpoints < ActiveRecord::Migration[5.2]CreateWebhooksOutgoingEndpoints1,0
+  def changechange2,0
+
+db/migrate/20211018173808_drop_webhooks_incoming_stripe_webhooks.rb,135
+class DropWebhooksIncomingStripeWebhooks < ActiveRecord::Migration[6.1]DropWebhooksIncomingStripeWebhooks1,0
+  def changechange2,0
+
+db/migrate/20180903185701_add_display_order_to_roles.rb,111
+class AddDisplayOrderToRoles < ActiveRecord::Migration[5.2]AddDisplayOrderToRoles1,0
+  def changechange2,0
+
+db/migrate/20211021230439_drop_oauth_access_grants.rb,121
+class DropOauthAccessGrants < ActiveRecord::Migration[6.1]DropOauthAccessGrants1,0
+  def upup2,0
+  def downdown6,0
+
+db/migrate/20181013165056_add_uuid_to_webhooks_outgoing_events.rb,129
+class AddUuidToWebhooksOutgoingEvents < ActiveRecord::Migration[5.2]AddUuidToWebhooksOutgoingEvents1,0
+  def changechange2,0
+
+db/migrate/20210514051642_add_boolean_to_tangible_things.rb,119
+class AddBooleanToTangibleThings < ActiveRecord::Migration[6.1]AddBooleanToTangibleThings1,0
+  def changechange2,0
+
+db/migrate/20220512170122_create_municipalities.rb,107
+class CreateMunicipalities < ActiveRecord::Migration[7.0]CreateMunicipalities1,0
+  def changechange2,0
+
+db/migrate/20191204020251_create_scaffolding_absolutely_abstract_creative_concepts.rb,169
+class CreateScaffoldingAbsolutelyAbstractCreativeConcepts < ActiveRecord::Migration[6.0]CreateScaffoldingAbsolutelyAbstractCreativeConcepts1,0
+  def changechange2,0
+
+db/migrate/20180326124105_add_timezone_to_user.rb,101
+class AddTimezoneToUser < ActiveRecord::Migration[5.2]AddTimezoneToUser1,0
+  def changechange2,0
+
+db/migrate/20220512170519_create_service_providers.rb,111
+class CreateServiceProviders < ActiveRecord::Migration[7.0]CreateServiceProviders1,0
+  def changechange2,0
+
+db/migrate/20191025053512_create_action_mailbox_tables.action_mailbox.rb,117
+class CreateActionMailboxTables < ActiveRecord::Migration[6.0]CreateActionMailboxTables2,0
+  def changechange3,0
+
+db/migrate/20210310164021_create_doorkeeper_tables.rb,111
+class CreateDoorkeeperTables < ActiveRecord::Migration[6.1]CreateDoorkeeperTables3,0
+  def changechange4,0
+
+db/migrate/20200219015116_rename_from_user_to_from_membership.rb,127
+class RenameFromUserToFromMembership < ActiveRecord::Migration[6.0]RenameFromUserToFromMembership1,0
+  def changechange2,0
+
+db/migrate/20210217014158_add_more_example_fields_to_tangible_things.rb,139
+class AddMoreExampleFieldsToTangibleThings < ActiveRecord::Migration[6.1]AddMoreExampleFieldsToTangibleThings1,0
+  def changechange2,0
+
+db/migrate/20200727175949_add_devise_two_factor_backupable_to_users.rb,137
+class AddDeviseTwoFactorBackupableToUsers < ActiveRecord::Migration[6.0]AddDeviseTwoFactorBackupableToUsers1,0
+  def changechange2,0
+
+db/migrate/20211020200855_add_doorkeeper_application_to_memberships.rb,141
+class AddDoorkeeperApplicationToMemberships < ActiveRecord::Migration[6.1]AddDoorkeeperApplicationToMemberships1,0
+  def changechange2,0
+
+db/migrate/20210816072508_add_locale_to_teams.rb,99
+class AddLocaleToTeams < ActiveRecord::Migration[6.1]AddLocaleToTeams1,0
+  def changechange2,0
+
+db/migrate/20190321203224_add_profile_photo_id_to_user.rb,113
+class AddProfilePhotoIdToUser < ActiveRecord::Migration[5.2]AddProfilePhotoIdToUser1,0
+  def changechange2,0
+
+db/migrate/20190124040656_add_csv_import_to_scaffolding_things.rb,129
+class AddCsvImportToScaffoldingThings < ActiveRecord::Migration[5.2]AddCsvImportToScaffoldingThings1,0
+  def changechange2,0
+
+db/migrate/20180420165345_create_webhooks_outgoing_delivery_attempts.rb,143
+class CreateWebhooksOutgoingDeliveryAttempts < ActiveRecord::Migration[5.2]CreateWebhooksOutgoingDeliveryAttempts1,0
+  def changechange2,0
+
+db/migrate/20180902143758_remove_admin_from_membership.rb,117
+class RemoveAdminFromMembership < ActiveRecord::Migration[5.2]RemoveAdminFromMembership1,0
+  def changechange2,0
+
+db/migrate/20190519230202_add_ability_cache_to_user.rb,109
+class AddAbilityCacheToUser < ActiveRecord::Migration[5.2]AddAbilityCacheToUser1,0
+  def changechange2,0
+
+db/migrate/20190224204755_create_webhooks_incoming_bullet_train_webhooks.rb,149
+class CreateWebhooksIncomingBulletTrainWebhooks < ActiveRecord::Migration[5.2]CreateWebhooksIncomingBulletTrainWebhooks1,0
+  def changechange2,0
+
+db/migrate/20190124034854_create_imports_csv_imports.rb,113
+class CreateImportsCsvImports < ActiveRecord::Migration[5.2]CreateImportsCsvImports1,0
+  def changechange2,0
+
+db/migrate/20191204020914_create_scaffolding_completely_concrete_tangible_things_assignments.rb,187
+class CreateScaffoldingCompletelyConcreteTangibleThingsAssignments < ActiveRecord::Migration[5.2]CreateScaffoldingCompletelyConcreteTangibleThingsAssignments1,0
+  def changechange2,0
+
+db/migrate/20200213235037_add_former_user_to_user.rb,105
+class AddFormerUserToUser < ActiveRecord::Migration[6.0]AddFormerUserToUser1,0
+  def changechange2,0
+
+db/migrate/20210316220614_migrate_team_connected_oauth_stripe_accounts.rb,158
+class MigrateTeamConnectedOauthStripeAccounts < ActiveRecord::Migration[6.1]MigrateTeamConnectedOauthStripeAccounts1,0
+  def upup2,0
+  def downdown10,0
+
+db/migrate/20220223210337_remove_ckeditor_value_from_scaffolding_completely_concrete_tangible_things.rb,199
+class RemoveCkeditorValueFromScaffoldingCompletelyConcreteTangibleThings < ActiveRecord::Migration[7.0]RemoveCkeditorValueFromScaffoldingCompletelyConcreteTangibleThings1,0
+  def changechange2,0
+
+db/migrate/20210816072419_add_locale_to_users.rb,99
+class AddLocaleToUsers < ActiveRecord::Migration[6.1]AddLocaleToUsers1,0
+  def changechange2,0
+
+db/migrate/20211021230724_recreate_oauth_access_grants.rb,117
+class RecreateOauthAccessGrants < ActiveRecord::Migration[6.1]RecreateOauthAccessGrants1,0
+  def changechange2,0
+
+db/migrate/20200211044616_drop_invitation_roles_table.rb,115
+class DropInvitationRolesTable < ActiveRecord::Migration[6.0]DropInvitationRolesTable1,0
+  def changechange2,0
+
+db/migrate/20180902142328_create_roles.rb,89
+class CreateRoles < ActiveRecord::Migration[5.2]CreateRoles1,0
+  def changechange2,0
+
+db/migrate/20210101231429_add_roles_to_scaffolding_absolutely_abstract_creative_concepts_collaborators.rb,203
+class AddRolesToScaffoldingAbsolutelyAbstractCreativeConceptsCollaborators < ActiveRecord::Migration[6.1]AddRolesToScaffoldingAbsolutelyAbstractCreativeConceptsCollaborators1,0
+  def changechange2,0
+
+db/migrate/20211127014001_migrate_event_types_on_webhooks_outgoing_events.rb,161
+class MigrateEventTypesOnWebhooksOutgoingEvents < ActiveRecord::Migration[6.1]MigrateEventTypesOnWebhooksOutgoingEvents1,0
+  def upup2,0
+  def downdown8,0
+
+db/migrate/20181013192951_add_attempt_number_to_webhooks_outgoing_delivery_attempts.rb,167
+class AddAttemptNumberToWebhooksOutgoingDeliveryAttempts < ActiveRecord::Migration[5.2]AddAttemptNumberToWebhooksOutgoingDeliveryAttempts1,0
+  def changechange2,0
+
+db/migrate/20161117154709_create_memberships.rb,101
+class CreateMemberships < ActiveRecord::Migration[5.0]CreateMemberships1,0
+  def changechange2,0
+
+db/migrate/20210316215919_create_integrations_stripe_installations.rb,141
+class CreateIntegrationsStripeInstallations < ActiveRecord::Migration[6.1]CreateIntegrationsStripeInstallations1,0
+  def changechange2,0
+
+db/migrate/20200213052748_add_former_user_fields_to_membership.rb,129
+class AddFormerUserFieldsToMembership < ActiveRecord::Migration[6.0]AddFormerUserFieldsToMembership1,0
+  def changechange2,0
+
+db/migrate/20200328203304_create_memberships_reassignments_scaffolding_completely_concrete_tangible_things_reassignments.rb,239
+class CreateMembershipsReassignmentsScaffoldingCompletelyConcreteTangibleThingsReassignments < ActiveRecord::Migration[6.0]CreateMembershipsReassignmentsScaffoldingCompletelyConcreteTangibleThingsReassignments1,0
+  def changechange2,0
+
+db/migrate/20171105001408_remove_api_key_from_user.rb,107
+class RemoveApiKeyFromUser < ActiveRecord::Migration[5.1]RemoveApiKeyFromUser1,0
+  def changechange2,0
+
+db/migrate/20210114200646_create_active_storage_variant_records.active_storage.rb,133
+class CreateActiveStorageVariantRecords < ActiveRecord::Migration[6.0]CreateActiveStorageVariantRecords2,0
+  def changechange3,0
+
+db/migrate/20180903101707_add_last_seen_at_to_users.rb,107
+class AddLastSeenAtToUsers < ActiveRecord::Migration[5.2]AddLastSeenAtToUsers1,0
+  def changechange2,0
+
+db/migrate/20211027002944_add_doorkeeper_application_to_users.rb,129
+class AddDoorkeeperApplicationToUsers < ActiveRecord::Migration[6.1]AddDoorkeeperApplicationToUsers1,0
+  def changechange2,0
+
+db/migrate/20211129044008_migrate_role_ids_to_yml.rb,157
+class MigrateRoleIdsToYml < ActiveRecord::Migration[6.1]MigrateRoleIdsToYml1,0
+  def upup2,0
+  def downdown42,0
+  def yml_file_pathyml_file_path46,0
+
+db/migrate/20191021233425_add_ckeditor_value_to_scaffolding_things.rb,137
+class AddCkeditorValueToScaffoldingThings < ActiveRecord::Migration[6.0]AddCkeditorValueToScaffoldingThings1,0
+  def changechange2,0
+
+db/migrate/20190330195809_create_webhooks_incoming_oauth_stripe_account_webhooks.rb,163
+class CreateWebhooksIncomingOauthStripeAccountWebhooks < ActiveRecord::Migration[5.2]CreateWebhooksIncomingOauthStripeAccountWebhooks1,0
+  def changechange2,0
+
+db/migrate/20210304203705_remove_secret_from_api_keys.rb,113
+class RemoveSecretFromApiKeys < ActiveRecord::Migration[6.1]RemoveSecretFromApiKeys1,0
+  def changechange2,0
+
+db/migrate/20190628194704_add_last_notification_email_sent_at_to_user.rb,139
+class AddLastNotificationEmailSentAtToUser < ActiveRecord::Migration[5.2]AddLastNotificationEmailSentAtToUser1,0
+  def changechange2,0
+
+db/migrate/20210414153701_add_team_to_oauth_applications.rb,119
+class AddTeamToOauthApplications < ActiveRecord::Migration[6.1]AddTeamToOauthApplications1,0
+  def changechange2,0
+
+db/migrate/20200219013834_add_added_by_to_membership.rb,111
+class AddAddedByToMembership < ActiveRecord::Migration[6.0]AddAddedByToMembership1,0
+  def changechange2,0
+
+db/migrate/20190224221839_verified_at_to_webhooks_incoming_bullet_train_webhooks.rb,161
+class VerifiedAtToWebhooksIncomingBulletTrainWebhooks < ActiveRecord::Migration[5.2]VerifiedAtToWebhooksIncomingBulletTrainWebhooks1,0
+  def changechange2,0
+
+db/migrate/20170912050334_create_things.rb,91
+class CreateThings < ActiveRecord::Migration[5.1]CreateThings1,0
+  def changechange2,0
+
+db/migrate/20211126230847_migrate_event_type_ids_on_webhooks_outgoing_endpoints.rb,159
+class MigrateEventTypeIdsOnWebhooksOutgoingEndpoints < ActiveRecord::Migration[6.1]MigrateEventTypeIdsOnWebhooksOutgoingEndpoints1,0
+  def changechange2,0
+
+db/migrate/20161205164613_add_admin_to_invitation.rb,107
+class AddAdminToInvitation < ActiveRecord::Migration[5.0]AddAdminToInvitation1,0
+  def changechange2,0
+
+db/migrate/20211127015713_drop_webhooks_outgoing_event_types.rb,139
+class DropWebhooksOutgoingEventTypes < ActiveRecord::Migration[6.1]DropWebhooksOutgoingEventTypes1,0
+  def upup2,0
+  def downdown6,0
+
+db/migrate/20170915215309_add_team_to_thing.rb,95
+class AddTeamToThing < ActiveRecord::Migration[5.1]AddTeamToThing1,0
+  def changechange2,0
+
+db/migrate/20180420013852_create_webhooks_outgoing_event_types.rb,131
+class CreateWebhooksOutgoingEventTypes < ActiveRecord::Migration[5.2]CreateWebhooksOutgoingEventTypes1,0
+  def changechange2,0
+
+db/migrate/20191225224034_add_sort_order_to_scaffolding_completely_concrete_tangible_things.rb,181
+class AddSortOrderToScaffoldingCompletelyConcreteTangibleThings < ActiveRecord::Migration[6.0]AddSortOrderToScaffoldingCompletelyConcreteTangibleThings1,0
+  def changechange2,0
+
+db/migrate/20180420022027_add_team_to_webhooks_outgoing_events.rb,129
+class AddTeamToWebhooksOutgoingEvents < ActiveRecord::Migration[5.2]AddTeamToWebhooksOutgoingEvents1,0
+  def changechange2,0
+
+db/migrate/20210513013030_add_color_value_to_scaffolding_completely_concrete_tangible_things.rb,183
+class AddColorValueToScaffoldingCompletelyConcreteTangibleThings < ActiveRecord::Migration[6.1]AddColorValueToScaffoldingCompletelyConcreteTangibleThings1,0
+  def changechange2,0
+
+db/migrate/20210602230736_add_option_fields_to_scaffolding_completely_concrete_tangible_things.rb,187
+class AddOptionFieldsToScaffoldingCompletelyConcreteTangibleThings < ActiveRecord::Migration[6.1]AddOptionFieldsToScaffoldingCompletelyConcreteTangibleThings1,0
+  def changechange2,0
+
+db/migrate/20200727171308_add_devise_two_factor_to_users.rb,117
+class AddDeviseTwoFactorToUsers < ActiveRecord::Migration[6.0]AddDeviseTwoFactorToUsers1,0
+  def changechange2,0
+
+db/migrate/20181013030208_add_delivered_at_to_webhooks_outgoing_deliveries.rb,151
+class AddDeliveredAtToWebhooksOutgoingDeliveries < ActiveRecord::Migration[5.2]AddDeliveredAtToWebhooksOutgoingDeliveries1,0
+  def changechange2,0
+
+db/migrate/20210101210524_create_scaffolding_absolutely_abstract_creative_concepts_collaborators.rb,195
+class CreateScaffoldingAbsolutelyAbstractCreativeConceptsCollaborators < ActiveRecord::Migration[6.1]CreateScaffoldingAbsolutelyAbstractCreativeConceptsCollaborators1,0
+  def changechange2,0
+
+db/migrate/20180902142350_create_membership_roles.rb,109
+class CreateMembershipRoles < ActiveRecord::Migration[5.2]CreateMembershipRoles1,0
+  def changechange2,0
+
+db/migrate/20211127013539_remove_event_type_from_webhooks_outgoing_events.rb,149
+class RemoveEventTypeFromWebhooksOutgoingEvents < ActiveRecord::Migration[6.1]RemoveEventTypeFromWebhooksOutgoingEvents1,0
+  def changechange2,0
+
+db/migrate/20180902154611_create_invitation_roles.rb,109
+class CreateInvitationRoles < ActiveRecord::Migration[5.2]CreateInvitationRoles1,0
+  def changechange2,0
+
+db/migrate/20161205154821_add_team_to_invitation.rb,105
+class AddTeamToInvitation < ActiveRecord::Migration[5.0]AddTeamToInvitation1,0
+  def changechange2,0
+
+db/migrate/20171104225620_create_api_keys.rb,93
+class CreateApiKeys < ActiveRecord::Migration[5.1]CreateApiKeys1,0
+  def changechange2,0
+
+db/migrate/20180420014623_create_webhooks_outgoing_events.rb,123
+class CreateWebhooksOutgoingEvents < ActiveRecord::Migration[5.2]CreateWebhooksOutgoingEvents1,0
+  def changechange2,0
+
+db/migrate/20210316220615_remove_team_id_from_oauth_stripe_account.rb,135
+class RemoveTeamIdFromOauthStripeAccount < ActiveRecord::Migration[6.1]RemoveTeamIdFromOauthStripeAccount1,0
+  def changechange2,0
+
+db/migrate/20161203193930_add_current_team_to_user.rb,107
+class AddCurrentTeamToUser < ActiveRecord::Migration[5.0]AddCurrentTeamToUser1,0
+  def changechange2,0
+
+db/migrate/20181013174539_add_payload_to_webhooks_outgoing_events.rb,135
+class AddPayloadToWebhooksOutgoingEvents < ActiveRecord::Migration[5.2]AddPayloadToWebhooksOutgoingEvents1,0
+  def changechange2,0
+
+db/migrate/20211127015712_drop_webhooks_outgoing_endpoint_event_types.rb,155
+class DropWebhooksOutgoingEndpointEventTypes < ActiveRecord::Migration[6.1]DropWebhooksOutgoingEndpointEventTypes1,0
+  def upup2,0
+  def downdown6,0
+
+db/migrate/20210511152422_create_oauth_access_grants.rb,113
+class CreateOauthAccessGrants < ActiveRecord::Migration[6.1]CreateOauthAccessGrants1,0
+  def changechange2,0
+
+db/migrate/20161204234150_create_invitations.rb,101
+class CreateInvitations < ActiveRecord::Migration[5.0]CreateInvitations1,0
+  def changechange2,0
+
+db/migrate/20220418034147_drop_imports_csv_imports.rb,109
+class DropImportsCsvImports < ActiveRecord::Migration[7.0]DropImportsCsvImports1,0
+  def changechange2,0
+
+db/migrate/20180902142822_migrate_admin_flag.rb,111
+class MigrateAdminFlag < ActiveRecord::Migration[5.2]MigrateAdminFlag1,0
+  def upup2,0
+  def downdown9,0
+
+db/migrate/20211130142547_rename_roles_to_role_ids.rb,107
+class RenameRolesToRoleIds < ActiveRecord::Migration[6.1]RenameRolesToRoleIds1,0
+  def changechange2,0
+
+db/migrate/20210114200645_add_service_name_to_active_storage_blobs.active_storage.rb,148
+class AddServiceNameToActiveStorageBlobs < ActiveRecord::Migration[6.0]AddServiceNameToActiveStorageBlobs2,0
+  def upup3,0
+  def downdown15,0
+
+db/migrate/20220512165144_create_organizations.rb,105
+class CreateOrganizations < ActiveRecord::Migration[7.0]CreateOrganizations1,0
+  def changechange2,0
+
+db/migrate/20181012234232_add_name_to_webhooks_outgoing_endpoints.rb,135
+class AddNameToWebhooksOutgoingEndpoints < ActiveRecord::Migration[5.2]AddNameToWebhooksOutgoingEndpoints1,0
+  def changechange2,0
+
+db/migrate/20210224234445_remove_select_value_from_scaffolding_completely_concrete_tangible_things.rb,195
+class RemoveSelectValueFromScaffoldingCompletelyConcreteTangibleThings < ActiveRecord::Migration[6.1]RemoveSelectValueFromScaffoldingCompletelyConcreteTangibleThings1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/lib/bullet_train/version.rb,114
+module BulletTrainBulletTrain1,0
+  VERSION = "1.0.68"VERSION2,0
+  VERSION = "1.0.68"BulletTrain::VERSION2,0
+
+tmp/gems/bullet_train/lib/bullet_train/core_ext/string_emoji_helper.rb,309
+module BulletTrainBulletTrain3,0
+  module CoreExtCoreExt4,0
+  module CoreExtBulletTrain::CoreExt4,0
+    module StringEmojiHelperStringEmojiHelper5,0
+    module StringEmojiHelperBulletTrain::CoreExt::StringEmojiHelper5,0
+      def strip_emojisstrip_emojis6,0
+      def only_emoji?only_emoji?10,0
+
+tmp/gems/bullet_train/lib/bullet_train/resolver.rb,477
+module BulletTrainBulletTrain3,0
+  class ResolverResolver4,0
+  class ResolverBulletTrain::Resolver4,0
+    def initialize(needle)initialize7,0
+    def run(eject: false, open: false, force: false, interactive: false)run11,0
+    def calculate_source_file_detailscalculate_source_file_details85,0
+    def url?url?126,0
+    def class_pathclass_path130,0
+    def partial_pathpartial_path137,0
+    def file_pathfile_path148,0
+    def locale_pathlocale_path155,0
+
+tmp/gems/bullet_train/lib/bullet_train/engine.rb,136
+module BulletTrainBulletTrain1,0
+  class Engine < ::Rails::EngineEngine2,0
+  class Engine < ::Rails::EngineBulletTrain::Engine2,0
+
+tmp/gems/bullet_train/lib/colorizer.rb,244
+module ColorizerColorizer2,0
+  def colorize(object)colorize5,0
+  def colorize_similarly(object, saturation, lightness)colorize_similarly13,0
+  def hsl_to_rgb(h, sl, l)hsl_to_rgb20,0
+  def hex_color_component(i)hex_color_component64,0
+
+tmp/gems/bullet_train/lib/bullet_train.rb,1519
+module BulletTrainBulletTrain35,0
+  mattr_accessor :routing_concerns, default: []routing_concerns36,0
+  mattr_accessor :routing_concerns, default: []routing_concerns=36,0
+  mattr_accessor :routing_concerns, default: [][:assoc, ["default:", 36], nil]36,0
+  mattr_accessor :routing_concerns, default: [][:assoc, ["default:", 36], nil]=36,0
+  mattr_accessor :linked_gems, default: ["bullet_train"]linked_gems37,0
+  mattr_accessor :linked_gems, default: ["bullet_train"]linked_gems=37,0
+  mattr_accessor :linked_gems, default: ["bullet_train"][:assoc, ["default:", 37], [["bullet_train", 37]]]37,0
+  mattr_accessor :linked_gems, default: ["bullet_train"][:assoc, ["default:", 37], [["bullet_train", 37]]]=37,0
+def default_url_options_from_base_urldefault_url_options_from_base_url40,0
+def inbound_email_enabled?inbound_email_enabled?58,0
+def subscriptions_enabled?subscriptions_enabled?62,0
+def free_trial?free_trial?66,0
+def stripe_enabled?stripe_enabled?70,0
+def webhooks_enabled?webhooks_enabled?76,0
+def scaffolding_things_disabled?scaffolding_things_disabled?80,0
+def sample_role_disabled?sample_role_disabled?84,0
+def demo?demo?88,0
+def cloudinary_enabled?cloudinary_enabled?92,0
+def two_factor_authentication_enabled?two_factor_authentication_enabled?96,0
+  def any_oauth_enabled?any_oauth_enabled?102,0
+def invitation_only?invitation_only?110,0
+def invitation_keysinvitation_keys114,0
+def font_awesome?font_awesome?118,0
+def multiple_locales?multiple_locales?122,0
+
+tmp/gems/bullet_train/app/models/team.rb,40
+class Team < ApplicationRecordTeam1,0
+
+tmp/gems/bullet_train/app/models/teams.rb,74
+module TeamsTeams1,0
+  def self.table_name_prefixtable_name_prefix2,0
+
+tmp/gems/bullet_train/app/models/user.rb,40
+class User < ApplicationRecordUser1,0
+
+tmp/gems/bullet_train/app/models/memberships.rb,86
+module MembershipsMemberships1,0
+  def self.table_name_prefixtable_name_prefix2,0
+
+tmp/gems/bullet_train/app/models/invitation.rb,52
+class Invitation < ApplicationRecordInvitation1,0
+
+tmp/gems/bullet_train/app/models/invitations.rb,86
+module InvitationsInvitations1,0
+  def self.table_name_prefixtable_name_prefix2,0
+
+tmp/gems/bullet_train/app/models/concerns/teams/base.rb,293
+module Teams::BaseBase1,0
+module Teams::BaseTeams::Base1,0
+  def adminsadmins26,0
+  def admin_usersadmin_users30,0
+  def primary_contactprimary_contact34,0
+  def formatted_email_addressformatted_email_address38,0
+  def invalidate_cachesinvalidate_caches42,0
+  def teamteam46,0
+
+tmp/gems/bullet_train/app/models/concerns/users/base.rb,1394
+module Users::BaseBase1,0
+module Users::BaseUsers::Base1,0
+  def email_is_oauth_placeholder?email_is_oauth_placeholder?38,0
+  def label_stringlabel_string42,0
+  def namename46,0
+  def full_namefull_name50,0
+  def details_provided?details_provided?54,0
+  def send_welcome_emailsend_welcome_email58,0
+  def create_default_teamcreate_default_team62,0
+  def real_emails_onlyreal_emails_only70,0
+  def multiple_teams?multiple_teams?94,0
+  def one_team?one_team?98,0
+  def formatted_email_addressformatted_email_address102,0
+  def administrating_team_idsadministrating_team_ids110,0
+  def parent_ids_for(role, through, parent)parent_ids_for114,0
+  def invalidate_ability_cacheinvalidate_ability_cache126,0
+  def otp_qr_codeotp_qr_code130,0
+  def scaffolding_absolutely_abstract_creative_concepts_collaboratorsscaffolding_absolutely_abstract_creative_concepts_collaborators136,0
+  def admin_scaffolding_absolutely_abstract_creative_concepts_idsadmin_scaffolding_absolutely_abstract_creative_concepts_ids140,0
+  def editor_scaffolding_absolutely_abstract_creative_concepts_idseditor_scaffolding_absolutely_abstract_creative_concepts_ids144,0
+  def viewer_scaffolding_absolutely_abstract_creative_concepts_idsviewer_scaffolding_absolutely_abstract_creative_concepts_ids148,0
+  def developer?developer?152,0
+  def set_teams_time_zoneset_teams_time_zone159,0
+
+tmp/gems/bullet_train/app/models/concerns/memberships/base.rb,605
+module Memberships::BaseBase1,0
+module Memberships::BaseMemberships::Base1,0
+  def namename34,0
+  def label_stringlabel_string38,0
+  def role_ids=(ids)role_ids=45,0
+  def unclaimed?unclaimed?56,0
+  def tombstone?tombstone?60,0
+  def last_admin?last_admin?64,0
+  def nullify_usernullify_user70,0
+  def emailemail107,0
+  def full_namefull_name111,0
+  def first_namefirst_name115,0
+  def last_namelast_name119,0
+  def last_initiallast_initial123,0
+  def first_name_last_initialfirst_name_last_initial128,0
+  def should_receive_notifications?should_receive_notifications?134,0
+
+tmp/gems/bullet_train/app/models/concerns/current_attributes/base.rb,204
+module CurrentAttributes::BaseBase1,0
+module CurrentAttributes::BaseCurrentAttributes::Base1,0
+  def user=(user)user=12,0
+  def team=(team)team=26,0
+  def update_membershipupdate_membership31,0
+
+tmp/gems/bullet_train/app/models/concerns/invitations/base.rb,327
+module Invitations::BaseBase1,0
+module Invitations::BaseInvitations::Base1,0
+  def set_added_by_membershipset_added_by_membership19,0
+  def send_invitation_emailsend_invitation_email23,0
+  def generate_uuidgenerate_uuid27,0
+  def accept_for(user)accept_for31,0
+  def namename39,0
+  def is_for?(user)is_for?43,0
+
+tmp/gems/bullet_train/app/models/concerns/records/base.rb,153
+module Records::BaseBase1,0
+module Records::BaseRecords::Base1,0
+  def label_stringlabel_string45,0
+  def parent_collectionparent_collection53,0
+
+tmp/gems/bullet_train/app/models/membership.rb,52
+class Membership < ApplicationRecordMembership1,0
+
+tmp/gems/bullet_train/app/models/users.rb,74
+module UsersUsers1,0
+  def self.table_name_prefixtable_name_prefix2,0
+
+tmp/gems/bullet_train/app/mailers/concerns/mailers/base.rb,69
+module Mailers::BaseBase1,0
+module Mailers::BaseMailers::Base1,0
+
+tmp/gems/bullet_train/app/mailers/devise_mailer.rb,101
+class DeviseMailer < Devise::MailerDeviseMailer1,0
+  def headers_for(action, opts)headers_for2,0
+
+tmp/gems/bullet_train/app/mailers/user_mailer.rb,117
+class UserMailer < ApplicationMailerUserMailer1,0
+  def welcome(user)welcome2,0
+  def invited(uuid)invited13,0
+
+tmp/gems/bullet_train/app/controllers/account/memberships_controller.rb,346
+class Account::MembershipsController < Account::ApplicationControllerMembershipsController1,0
+class Account::MembershipsController < Account::ApplicationControllerAccount::MembershipsController1,0
+  def permitted_fieldspermitted_fields6,0
+  def permitted_arrayspermitted_arrays12,0
+  def process_params(strong_params)process_params18,0
+
+tmp/gems/bullet_train/app/controllers/account/onboarding/user_email_controller.rb,229
+class Account::Onboarding::UserEmailController < Account::ApplicationControllerUserEmailController1,0
+class Account::Onboarding::UserEmailController < Account::ApplicationControllerAccount::Onboarding::UserEmailController1,0
+
+tmp/gems/bullet_train/app/controllers/account/onboarding/user_details_controller.rb,237
+class Account::Onboarding::UserDetailsController < Account::ApplicationControllerUserDetailsController1,0
+class Account::Onboarding::UserDetailsController < Account::ApplicationControllerAccount::Onboarding::UserDetailsController1,0
+
+tmp/gems/bullet_train/app/controllers/account/teams_controller.rb,322
+class Account::TeamsController < Account::ApplicationControllerTeamsController1,0
+class Account::TeamsController < Account::ApplicationControllerAccount::TeamsController1,0
+  def permitted_fieldspermitted_fields6,0
+  def permitted_arrayspermitted_arrays12,0
+  def process_params(strong_params)process_params18,0
+
+tmp/gems/bullet_train/app/controllers/account/invitations_controller.rb,201
+class Account::InvitationsController < Account::ApplicationControllerInvitationsController1,0
+class Account::InvitationsController < Account::ApplicationControllerAccount::InvitationsController1,0
+
+tmp/gems/bullet_train/app/controllers/account/two_factors_controller.rb,248
+class Account::TwoFactorsController < Account::ApplicationControllerTwoFactorsController1,0
+class Account::TwoFactorsController < Account::ApplicationControllerAccount::TwoFactorsController1,0
+  def createcreate4,0
+  def destroydestroy14,0
+
+tmp/gems/bullet_train/app/controllers/account/users_controller.rb,322
+class Account::UsersController < Account::ApplicationControllerUsersController1,0
+class Account::UsersController < Account::ApplicationControllerAccount::UsersController1,0
+  def permitted_fieldspermitted_fields6,0
+  def permitted_arrayspermitted_arrays12,0
+  def process_params(strong_params)process_params18,0
+
+tmp/gems/bullet_train/app/controllers/sessions_controller.rb,77
+class SessionsController < Devise::SessionsControllerSessionsController1,0
+
+tmp/gems/bullet_train/app/controllers/concerns/invite_only_support.rb,110
+module InviteOnlySupportInviteOnlySupport1,0
+  def invitationinvitation4,0
+  def not_foundnot_found16,0
+
+tmp/gems/bullet_train/app/controllers/concerns/registrations/controller_base.rb,127
+module Registrations::ControllerBaseControllerBase1,0
+module Registrations::ControllerBaseRegistrations::ControllerBase1,0
+
+tmp/gems/bullet_train/app/controllers/concerns/account/teams/controller_base.rb,480
+module Account::Teams::ControllerBaseControllerBase1,0
+module Account::Teams::ControllerBaseAccount::Teams::ControllerBase1,0
+  def indexindex25,0
+  def switch_toswitch_to38,0
+  def showshow46,0
+  def newnew58,0
+  def editedit63,0
+  def createcreate68,0
+  def updateupdate92,0
+  def permitted_fieldspermitted_fields116,0
+  def permitted_arrayspermitted_arrays120,0
+  def process_params(strong_params)process_params124,0
+  def team_paramsteam_params129,0
+
+tmp/gems/bullet_train/app/controllers/concerns/account/users/controller_base.rb,427
+module Account::Users::ControllerBaseControllerBase1,0
+module Account::Users::ControllerBaseAccount::Users::ControllerBase1,0
+  def editedit16,0
+  def showshow20,0
+  def updating_password?updating_password?23,0
+  def updateupdate29,0
+  def permitted_fieldspermitted_fields45,0
+  def permitted_arrayspermitted_arrays49,0
+  def process_params(strong_params)process_params53,0
+  def user_paramsuser_params58,0
+
+tmp/gems/bullet_train/app/controllers/concerns/account/onboarding/user_details/controller_base.rb,265
+module Account::Onboarding::UserDetails::ControllerBaseControllerBase1,0
+module Account::Onboarding::UserDetails::ControllerBaseAccount::Onboarding::UserDetails::ControllerBase1,0
+  def editedit15,0
+  def updateupdate21,0
+  def user_paramsuser_params47,0
+
+tmp/gems/bullet_train/app/controllers/concerns/account/onboarding/user_email/controller_base.rb,259
+module Account::Onboarding::UserEmail::ControllerBaseControllerBase1,0
+module Account::Onboarding::UserEmail::ControllerBaseAccount::Onboarding::UserEmail::ControllerBase1,0
+  def editedit15,0
+  def updateupdate24,0
+  def user_paramsuser_params60,0
+
+tmp/gems/bullet_train/app/controllers/concerns/account/memberships/controller_base.rb,472
+module Account::Memberships::ControllerBaseControllerBase1,0
+module Account::Memberships::ControllerBaseAccount::Memberships::ControllerBase1,0
+  def indexindex10,0
+  def searchsearch16,0
+  def showshow35,0
+  def editedit38,0
+  def updateupdate43,0
+  def demotedemote58,0
+  def promotepromote65,0
+  def destroydestroy70,0
+  def reinvitereinvite86,0
+  def manageable_role_keysmanageable_role_keys97,0
+  def membership_paramsmembership_params103,0
+
+tmp/gems/bullet_train/app/controllers/concerns/account/invitations/controller_base.rb,540
+module Account::Invitations::ControllerBaseControllerBase1,0
+module Account::Invitations::ControllerBaseAccount::Invitations::ControllerBase1,0
+  def indexindex19,0
+  def showshow25,0
+  def acceptaccept44,0
+  def newnew80,0
+  def createcreate87,0
+  def destroydestroy105,0
+  def permitted_fieldspermitted_fields115,0
+  def permitted_arrayspermitted_arrays119,0
+  def process_params(strong_params)process_params123,0
+  def manageable_role_keysmanageable_role_keys127,0
+  def invitation_paramsinvitation_params133,0
+
+tmp/gems/bullet_train/app/controllers/concerns/account/controllers/base.rb,618
+module Account::Controllers::BaseBase1,0
+module Account::Controllers::BaseAccount::Controllers::Base1,0
+  def adding_user_email?adding_user_email?27,0
+  def adding_user_details?adding_user_details?31,0
+  def adding_team?adding_team?35,0
+  def switching_teams?switching_teams?41,0
+  def managing_account?managing_account?46,0
+  def accepting_invitation?accepting_invitation?50,0
+  def ensure_onboarding_is_complete_and_set_next_stepensure_onboarding_is_complete_and_set_next_step54,0
+  def ensure_onboarding_is_completeensure_onboarding_is_complete60,0
+  def set_last_seen_atset_last_seen_at114,0
+
+tmp/gems/bullet_train/app/controllers/concerns/sessions/controller_base.rb,139
+module Sessions::ControllerBaseControllerBase1,0
+module Sessions::ControllerBaseSessions::ControllerBase1,0
+  def pre_otppre_otp10,0
+
+tmp/gems/bullet_train/app/controllers/concerns/documentation_support.rb,73
+module DocumentationSupportDocumentationSupport1,0
+  def docsdocs4,0
+
+tmp/gems/bullet_train/app/controllers/concerns/controllers/base.rb,600
+module Controllers::BaseBase1,0
+module Controllers::BaseControllers::Base1,0
+  def layout_by_resourcelayout_by_resource45,0
+  def after_sign_in_path_for(resource_or_scope)after_sign_in_path_for53,0
+  def after_sign_up_path_for(resource_or_scope)after_sign_up_path_for58,0
+  def current_teamcurrent_team63,0
+  def current_membershipcurrent_membership67,0
+  def current_localecurrent_locale71,0
+  def enforce_invitation_onlyenforce_invitation_only75,0
+  def set_localeset_locale83,0
+  def only_allow_path(path)only_allow_path96,0
+  def set_sentry_contextset_sentry_context105,0
+
+tmp/gems/bullet_train/app/controllers/concerns/devise_current_attributes.rb,103
+module DeviseCurrentAttributesDeviseCurrentAttributes1,0
+  def set_current_userset_current_user8,0
+
+tmp/gems/bullet_train/app/controllers/concerns/root_redirect.rb,59
+module RootRedirectRootRedirect1,0
+  def indexindex4,0
+
+tmp/gems/bullet_train/app/controllers/registrations_controller.rb,92
+class RegistrationsController < Devise::RegistrationsControllerRegistrationsController7,0
+
+tmp/gems/bullet_train/app/helpers/account/buttons_helper.rb,172
+module Account::ButtonsHelperButtonsHelper1,0
+module Account::ButtonsHelperAccount::ButtonsHelper1,0
+  def first_button_primary(context = nil)first_button_primary2,0
+
+tmp/gems/bullet_train/app/helpers/account/memberships_helper.rb,203
+module Account::MembershipsHelperMembershipsHelper1,0
+module Account::MembershipsHelperAccount::MembershipsHelper1,0
+  def membership_destroy_locale_key(membership)membership_destroy_locale_key2,0
+
+tmp/gems/bullet_train/app/helpers/account/locale_helper.rb,412
+module Account::LocaleHelperLocaleHelper1,0
+module Account::LocaleHelperAccount::LocaleHelper1,0
+  def current_localecurrent_locale2,0
+  def possessive_string(string)possessive_string8,0
+  def model_locales(model)model_locales12,0
+  def models_locales(*models)models_locales24,0
+  def account_controller?account_controller?33,0
+  def t(key, options = {})t37,0
+  def ot(key, options = {})ot82,0
+
+tmp/gems/bullet_train/app/helpers/account/markdown_helper.rb,145
+module Account::MarkdownHelperMarkdownHelper1,0
+module Account::MarkdownHelperAccount::MarkdownHelper1,0
+  def markdown(string)markdown2,0
+
+tmp/gems/bullet_train/app/helpers/account/role_helper.rb,145
+module Account::RoleHelperRoleHelper1,0
+module Account::RoleHelperAccount::RoleHelper1,0
+  def role_options_for(object)role_options_for2,0
+
+tmp/gems/bullet_train/app/helpers/account/dates_helper.rb,297
+module Account::DatesHelperDatesHelper1,0
+module Account::DatesHelperAccount::DatesHelper1,0
+  def display_date(timestamp)display_date3,0
+  def display_date_and_time(timestamp)display_date_and_time15,0
+  def display_time(timestamp)display_time30,0
+  def local_time(time)local_time34,0
+
+tmp/gems/bullet_train/app/helpers/account/users_helper.rb,679
+module Account::UsersHelperUsersHelper1,0
+module Account::UsersHelperAccount::UsersHelper1,0
+  def profile_photo_for(url: nil, email: nil, first_name: nil, last_name: nil)profile_photo_for2,0
+  def user_profile_photo_url(user)user_profile_photo_url18,0
+  def membership_profile_photo_url(membership)membership_profile_photo_url27,0
+  def profile_header_photo_for(url: nil, email: nil, first_name: nil, last_name: nil)profile_header_photo_for40,0
+  def user_profile_header_photo_url(user)user_profile_header_photo_url56,0
+  def membership_profile_header_photo_url(membership)membership_profile_header_photo_url65,0
+  def current_membershipcurrent_membership78,0
+
+tmp/gems/bullet_train/app/helpers/account/forms_helper.rb,995
+module Account::FormsHelperFormsHelper1,0
+module Account::FormsHelperAccount::FormsHelper1,0
+  PRESENCE_VALIDATORS = [ActiveRecord::Validations::PresenceValidator, ActiveModel::Validations::PresenceValidator]PRESENCE_VALIDATORS2,0
+  PRESENCE_VALIDATORS = [ActiveRecord::Validations::PresenceValidator, ActiveModel::Validations::PresenceValidator]Account::FormsHelper::PRESENCE_VALIDATORS2,0
+  def presence_validated?(object, attribute)presence_validated?4,0
+  def flush_content_for(name)flush_content_for12,0
+  def options_with_labels(options, namespace)options_with_labels18,0
+  def if_present(string)if_present26,0
+  def id_for(form, method)id_for30,0
+  def model_key(form)model_key34,0
+  def labels_for(form, method)labels_for38,0
+  def options_for(form, method)options_for44,0
+  def legacy_label_for(form, method)legacy_label_for50,0
+  def within_fields_namespace(namespace)within_fields_namespace57,0
+  def current_fields_namespacecurrent_fields_namespace64,0
+
+tmp/gems/bullet_train/app/helpers/account/invitations_helper.rb,121
+module Account::InvitationsHelperInvitationsHelper1,0
+module Account::InvitationsHelperAccount::InvitationsHelper1,0
+
+tmp/gems/bullet_train/app/helpers/account/teams_helper.rb,649
+module Account::TeamsHelperTeamsHelper1,0
+module Account::TeamsHelperAccount::TeamsHelper1,0
+  def current_teamcurrent_team2,0
+  def other_teamsother_teams6,0
+  def users_as_select_options(users, values = [])users_as_select_options11,0
+  def memberships_as_select_options(memberships, values = [])memberships_as_select_options18,0
+  def photo_for(object)photo_for25,0
+  def describe_users_for_user_on_team(users, for_user, team)describe_users_for_user_on_team37,0
+  def describe_memberships_for_membership_on_team(memberships, for_membership, team)describe_memberships_for_membership_on_team57,0
+  def can_invite?can_invite?77,0
+
+tmp/gems/bullet_train/app/helpers/invitation_only_helper.rb,135
+module InvitationOnlyHelperInvitationOnlyHelper1,0
+  def invited?invited?2,0
+  def show_sign_up_options?show_sign_up_options?6,0
+
+tmp/gems/bullet_train/app/helpers/images_helper.rb,118
+module ImagesHelperImagesHelper1,0
+  def image_width_for_height(filename, target_height)image_width_for_height2,0
+
+tmp/gems/bullet_train/app/helpers/concerns/helpers/base.rb,108
+module Helpers::BaseBase4,0
+module Helpers::BaseHelpers::Base4,0
+  def has_order?(scope)has_order?8,0
+
+tmp/gems/bullet_train/app/helpers/email_helper.rb,95
+module EmailHelperEmailHelper1,0
+  def email_image_tag(image, **options)email_image_tag2,0
+
+tmp/gems/bullet_train/app/helpers/invitations_helper.rb,117
+module InvitationsHelperInvitationsHelper1,0
+  def handle_outstanding_invitationhandle_outstanding_invitation2,0
+
+tmp/gems/bullet_train/app/helpers/attributes_helper.rb,241
+module AttributesHelperAttributesHelper1,0
+  def current_attributes_objectcurrent_attributes_object2,0
+  def current_attributes_strategycurrent_attributes_strategy6,0
+  def with_attribute_settings(options)with_attribute_settings10,0
+
+tmp/gems/bullet_train/app/helpers/base_helper.rb,95
+module BaseHelperBaseHelper1,0
+  def hide_team_resource_menus?hide_team_resource_menus?3,0
+
+tmp/gems/bullet_train/db/migrate/20170908205756_add_names_to_user.rb,95
+class AddNamesToUser < ActiveRecord::Migration[5.1]AddNamesToUser1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20161116003852_add_api_key_to_user.rb,97
+class AddApiKeyToUser < ActiveRecord::Migration[5.0]AddApiKeyToUser1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20161115160419_devise_create_users.rb,101
+class DeviseCreateUsers < ActiveRecord::Migration[5.0]DeviseCreateUsers1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20200211034208_add_invitation_to_membership.rb,117
+class AddInvitationToMembership < ActiveRecord::Migration[6.0]AddInvitationToMembership1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20200726222314_add_being_destroyed_to_team.rb,113
+class AddBeingDestroyedToTeam < ActiveRecord::Migration[6.0]AddBeingDestroyedToTeam1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20210304133200_add_time_zone_to_team.rb,101
+class AddTimeZoneToTeam < ActiveRecord::Migration[6.1]AddTimeZoneToTeam1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20161117154605_create_teams.rb,89
+class CreateTeams < ActiveRecord::Migration[5.0]CreateTeams1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20180902195848_remove_admin_from_invitation.rb,117
+class RemoveAdminFromInvitation < ActiveRecord::Migration[5.2]RemoveAdminFromInvitation1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20180902154652_migrate_admin_flag_on_invitations.rb,137
+class MigrateAdminFlagOnInvitations < ActiveRecord::Migration[5.2]MigrateAdminFlagOnInvitations1,0
+  def upup2,0
+  def downdown9,0
+
+tmp/gems/bullet_train/db/migrate/20180326124105_add_timezone_to_user.rb,101
+class AddTimezoneToUser < ActiveRecord::Migration[5.2]AddTimezoneToUser1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20200219015116_rename_from_user_to_from_membership.rb,127
+class RenameFromUserToFromMembership < ActiveRecord::Migration[6.0]RenameFromUserToFromMembership1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20200727175949_add_devise_two_factor_backupable_to_users.rb,137
+class AddDeviseTwoFactorBackupableToUsers < ActiveRecord::Migration[6.0]AddDeviseTwoFactorBackupableToUsers1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20211020200855_add_doorkeeper_application_to_memberships.rb,141
+class AddDoorkeeperApplicationToMemberships < ActiveRecord::Migration[6.1]AddDoorkeeperApplicationToMemberships1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20210816072508_add_locale_to_teams.rb,99
+class AddLocaleToTeams < ActiveRecord::Migration[6.1]AddLocaleToTeams1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20190321203224_add_profile_photo_id_to_user.rb,113
+class AddProfilePhotoIdToUser < ActiveRecord::Migration[5.2]AddProfilePhotoIdToUser1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20180902143758_remove_admin_from_membership.rb,117
+class RemoveAdminFromMembership < ActiveRecord::Migration[5.2]RemoveAdminFromMembership1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20190519230202_add_ability_cache_to_user.rb,109
+class AddAbilityCacheToUser < ActiveRecord::Migration[5.2]AddAbilityCacheToUser1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20200213235037_add_former_user_to_user.rb,105
+class AddFormerUserToUser < ActiveRecord::Migration[6.0]AddFormerUserToUser1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20210816072419_add_locale_to_users.rb,99
+class AddLocaleToUsers < ActiveRecord::Migration[6.1]AddLocaleToUsers1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20200211044616_drop_invitation_roles_table.rb,115
+class DropInvitationRolesTable < ActiveRecord::Migration[6.0]DropInvitationRolesTable1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20161117154709_create_memberships.rb,101
+class CreateMemberships < ActiveRecord::Migration[5.0]CreateMemberships1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20200213052748_add_former_user_fields_to_membership.rb,129
+class AddFormerUserFieldsToMembership < ActiveRecord::Migration[6.0]AddFormerUserFieldsToMembership1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20171105001408_remove_api_key_from_user.rb,107
+class RemoveApiKeyFromUser < ActiveRecord::Migration[5.1]RemoveApiKeyFromUser1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20180903101707_add_last_seen_at_to_users.rb,107
+class AddLastSeenAtToUsers < ActiveRecord::Migration[5.2]AddLastSeenAtToUsers1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20211027002944_add_doorkeeper_application_to_users.rb,129
+class AddDoorkeeperApplicationToUsers < ActiveRecord::Migration[6.1]AddDoorkeeperApplicationToUsers1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20190628194704_add_last_notification_email_sent_at_to_user.rb,139
+class AddLastNotificationEmailSentAtToUser < ActiveRecord::Migration[5.2]AddLastNotificationEmailSentAtToUser1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20200219013834_add_added_by_to_membership.rb,111
+class AddAddedByToMembership < ActiveRecord::Migration[6.0]AddAddedByToMembership1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20161205164613_add_admin_to_invitation.rb,107
+class AddAdminToInvitation < ActiveRecord::Migration[5.0]AddAdminToInvitation1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20170915215309_add_team_to_thing.rb,95
+class AddTeamToThing < ActiveRecord::Migration[5.1]AddTeamToThing1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20200727171308_add_devise_two_factor_to_users.rb,117
+class AddDeviseTwoFactorToUsers < ActiveRecord::Migration[6.0]AddDeviseTwoFactorToUsers1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20180902142350_create_membership_roles.rb,109
+class CreateMembershipRoles < ActiveRecord::Migration[5.2]CreateMembershipRoles1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20180902154611_create_invitation_roles.rb,109
+class CreateInvitationRoles < ActiveRecord::Migration[5.2]CreateInvitationRoles1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20161205154821_add_team_to_invitation.rb,105
+class AddTeamToInvitation < ActiveRecord::Migration[5.0]AddTeamToInvitation1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20161203193930_add_current_team_to_user.rb,107
+class AddCurrentTeamToUser < ActiveRecord::Migration[5.0]AddCurrentTeamToUser1,0
+  def changechange2,0
+
+tmp/gems/bullet_train/db/migrate/20161204234150_create_invitations.rb,101
+class CreateInvitations < ActiveRecord::Migration[5.0]CreateInvitations1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-themes-tailwind_css/lib/bullet_train/themes/tailwind_css/version.rb,307
+module BulletTrainBulletTrain1,0
+  module ThemesThemes2,0
+  module ThemesBulletTrain::Themes2,0
+    module TailwindCssTailwindCss3,0
+    module TailwindCssBulletTrain::Themes::TailwindCss3,0
+      VERSION = "1.0.9"VERSION4,0
+      VERSION = "1.0.9"BulletTrain::Themes::TailwindCss::VERSION4,0
+
+tmp/gems/bullet_train-themes-tailwind_css/lib/bullet_train/themes/tailwind_css/engine.rb,331
+module BulletTrainBulletTrain1,0
+  module ThemesThemes2,0
+  module ThemesBulletTrain::Themes2,0
+    module TailwindCssTailwindCss3,0
+    module TailwindCssBulletTrain::Themes::TailwindCss3,0
+      class Engine < ::Rails::EngineEngine4,0
+      class Engine < ::Rails::EngineBulletTrain::Themes::TailwindCss::Engine4,0
+
+tmp/gems/bullet_train-themes-tailwind_css/lib/bullet_train/themes/tailwind_css.rb,410
+module BulletTrainBulletTrain6,0
+  module ThemesThemes7,0
+  module ThemesBulletTrain::Themes7,0
+    module TailwindCssTailwindCss8,0
+    module TailwindCssBulletTrain::Themes::TailwindCss8,0
+      class Theme < BulletTrain::Themes::Base::ThemeTheme9,0
+      class Theme < BulletTrain::Themes::Base::ThemeBulletTrain::Themes::TailwindCss::Theme9,0
+        def directory_orderdirectory_order10,0
+
+tmp/gems/bullet_train-fields/lib/bullet_train/fields.rb,102
+module BulletTrainBulletTrain7,0
+  module FieldsFields8,0
+  module FieldsBulletTrain::Fields8,0
+
+tmp/gems/bullet_train-fields/lib/bullet_train/fields/version.rb,191
+module BulletTrainBulletTrain1,0
+  module FieldsFields2,0
+  module FieldsBulletTrain::Fields2,0
+    VERSION = "1.0.7"VERSION3,0
+    VERSION = "1.0.7"BulletTrain::Fields::VERSION3,0
+
+tmp/gems/bullet_train-fields/lib/bullet_train/fields/engine.rb,215
+module BulletTrainBulletTrain1,0
+  module FieldsFields2,0
+  module FieldsBulletTrain::Fields2,0
+    class Engine < ::Rails::EngineEngine3,0
+    class Engine < ::Rails::EngineBulletTrain::Fields::Engine3,0
+
+tmp/gems/bullet_train-fields/app/controllers/account/cloudinary/upload_signatures_controller.rb,333
+class Account::Cloudinary::UploadSignaturesController < Account::ApplicationControllerUploadSignaturesController1,0
+class Account::Cloudinary::UploadSignaturesController < Account::ApplicationControllerAccount::Cloudinary::UploadSignaturesController1,0
+  def newnew3,0
+  def upload_signature_paramsupload_signature_params7,0
+
+tmp/gems/bullet_train-fields/app/controllers/concerns/fields/date_and_time_support.rb,200
+module Fields::DateAndTimeSupportDateAndTimeSupport1,0
+module Fields::DateAndTimeSupportFields::DateAndTimeSupport1,0
+  def assign_date_and_time(strong_params, attribute)assign_date_and_time4,0
+
+tmp/gems/bullet_train-fields/app/controllers/concerns/fields/boolean_support.rb,172
+module Fields::BooleanSupportBooleanSupport1,0
+module Fields::BooleanSupportFields::BooleanSupport1,0
+  def assign_boolean(strong_params, attribute)assign_boolean4,0
+
+tmp/gems/bullet_train-fields/app/controllers/concerns/fields/date_support.rb,154
+module Fields::DateSupportDateSupport1,0
+module Fields::DateSupportFields::DateSupport1,0
+  def assign_date(strong_params, attribute)assign_date4,0
+
+tmp/gems/bullet_train-fields/app/controllers/concerns/fields/controller_support.rb,118
+module Fields::ControllerSupportControllerSupport1,0
+module Fields::ControllerSupportFields::ControllerSupport1,0
+
+tmp/gems/bullet_train-fields/app/controllers/concerns/fields/options_support.rb,178
+module Fields::OptionsSupportOptionsSupport1,0
+module Fields::OptionsSupportFields::OptionsSupport1,0
+  def assign_checkboxes(strong_params, attribute)assign_checkboxes4,0
+
+tmp/gems/bullet_train-fields/app/controllers/concerns/fields/super_select_support.rb,315
+module Fields::SuperSelectSupportSuperSelectSupport1,0
+module Fields::SuperSelectSupportFields::SuperSelectSupport1,0
+  def assign_select_options(strong_params, attribute)assign_select_options4,0
+  def create_model_if_new(id)create_model_if_new13,0
+  def create_models_if_new(ids)create_models_if_new22,0
+
+tmp/gems/bullet_train-fields/app/helpers/fields/html_editor_helper.rb,407
+module Fields::HtmlEditorHelperHtmlEditorHelper1,0
+module Fields::HtmlEditorHelperFields::HtmlEditorHelper1,0
+  TEMPORARY_REPLACEMENT = "https://temp.bullettrain.co/"TEMPORARY_REPLACEMENT2,0
+  TEMPORARY_REPLACEMENT = "https://temp.bullettrain.co/"Fields::HtmlEditorHelper::TEMPORARY_REPLACEMENT2,0
+  def html_sanitize(string)html_sanitize4,0
+  def links_target_blank(body)links_target_blank17,0
+
+tmp/gems/bullet_train-fields/app/helpers/fields/cloudinary_image_helper.rb,256
+module Fields::CloudinaryImageHelperCloudinaryImageHelper1,0
+module Fields::CloudinaryImageHelperFields::CloudinaryImageHelper1,0
+  def cloudinary_image_tag(cloudinary_id, image_tag_options = {}, cloudinary_image_options = {})cloudinary_image_tag2,0
+
+tmp/gems/bullet_train-fields/app/helpers/fields/trix_editor_helper.rb,393
+module Fields::TrixEditorHelperTrixEditorHelper1,0
+module Fields::TrixEditorHelperFields::TrixEditorHelper1,0
+  TEMPORARY_REPLACEMENT = "https://temp.bullettrain.co/"TEMPORARY_REPLACEMENT2,0
+  TEMPORARY_REPLACEMENT = "https://temp.bullettrain.co/"Fields::TrixEditorHelper::TEMPORARY_REPLACEMENT2,0
+  def trix_sanitize(html)trix_sanitize5,0
+  def trix_content(body)trix_content10,0
+
+tmp/gems/bullet_train-fields/app/helpers/fields/phone_field_helper.rb,180
+module Fields::PhoneFieldHelperPhoneFieldHelper1,0
+module Fields::PhoneFieldHelperFields::PhoneFieldHelper1,0
+  def display_phone_number(phone_number)display_phone_number2,0
+
+tmp/gems/bullet_train-fields/app/helpers/fields_helper.rb,146
+module FieldsHelperFieldsHelper1,0
+  def current_fields_formcurrent_fields_form2,0
+  def with_field_settings(options)with_field_settings6,0
+
+tmp/gems/bullet_train-themes/lib/bullet_train/themes.rb,1253
+module BulletTrainBulletTrain5,0
+  module ThemesThemes6,0
+  module ThemesBulletTrain::Themes6,0
+    mattr_accessor :themes, default: {}themes7,0
+    mattr_accessor :themes, default: {}themes=7,0
+    mattr_accessor :themes, default: {}[:assoc, ["default:", 7], nil]7,0
+    mattr_accessor :themes, default: {}[:assoc, ["default:", 7], nil]=7,0
+    mattr_accessor :logo_asset_path, default: "logo/logo.png"logo_asset_path8,0
+    mattr_accessor :logo_asset_path, default: "logo/logo.png"logo_asset_path=8,0
+    mattr_accessor :logo_asset_path, default: "logo/logo.png"[:assoc, ["default:", 8], ["logo/logo.png", 8]]8,0
+    mattr_accessor :logo_asset_path, default: "logo/logo.png"[:assoc, ["default:", 8], ["logo/logo.png", 8]]=8,0
+    mattr_accessor :logo_height, default: 54logo_height9,0
+    mattr_accessor :logo_height, default: 54logo_height=9,0
+    mattr_accessor :logo_height, default: 54[:assoc, ["default:", 9], ["54", 9]]9,0
+    mattr_accessor :logo_height, default: 54[:assoc, ["default:", 9], ["54", 9]]=9,0
+    module BaseBase11,0
+    module BaseBulletTrain::Themes::Base11,0
+      class ThemeTheme12,0
+      class ThemeBulletTrain::Themes::Base::Theme12,0
+        def directory_orderdirectory_order13,0
+
+tmp/gems/bullet_train-themes/lib/bullet_train/themes/version.rb,191
+module BulletTrainBulletTrain1,0
+  module ThemesThemes2,0
+  module ThemesBulletTrain::Themes2,0
+    VERSION = "1.0.9"VERSION3,0
+    VERSION = "1.0.9"BulletTrain::Themes::VERSION3,0
+
+tmp/gems/bullet_train-themes/lib/bullet_train/themes/engine.rb,215
+module BulletTrainBulletTrain1,0
+  module ThemesThemes2,0
+  module ThemesBulletTrain::Themes2,0
+    class Engine < ::Rails::EngineEngine3,0
+    class Engine < ::Rails::EngineBulletTrain::Themes::Engine3,0
+
+tmp/gems/bullet_train-themes/app/helpers/theme_helper.rb,300
+module ThemeHelperThemeHelper1,0
+  INVOCATION_PATTERNS = [INVOCATION_PATTERNS3,0
+  INVOCATION_PATTERNS = [ThemeHelper::INVOCATION_PATTERNS3,0
+  def current_themecurrent_theme11,0
+  def current_theme_objectcurrent_theme_object17,0
+  def render(options = {}, locals = {}, &block)render21,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/scaffolding/class_names_transformer.rb,1428
+class Scaffolding::ClassNamesTransformerClassNamesTransformer1,0
+class Scaffolding::ClassNamesTransformerScaffolding::ClassNamesTransformer1,0
+  attr_accessor :child, :parent, :namespacechild2,0
+  attr_accessor :child, :parent, :namespacechild=2,0
+  attr_accessor :child, :parent, :namespaceparent2,0
+  attr_accessor :child, :parent, :namespaceparent=2,0
+  attr_accessor :child, :parent, :namespacenamespace2,0
+  attr_accessor :child, :parent, :namespacenamespace=2,0
+  def initialize(child, parent, namespace = "account")initialize4,0
+  def belongs_to_needs_class_definition?belongs_to_needs_class_definition?10,0
+  def namespace_partsnamespace_parts16,0
+  def parent_namespace_partsparent_namespace_parts20,0
+  def partsparts24,0
+  def parent_partsparent_parts28,0
+  def parent_in_namespace_class_nameparent_in_namespace_class_name32,0
+  def in_namespace_class_namein_namespace_class_name36,0
+  def all_parts_in_contextall_parts_in_context40,0
+  def parts_in_contextparts_in_context60,0
+  def parent_parts_in_contextparent_parts_in_context64,0
+  def class_name_in_parent_contextclass_name_in_parent_context68,0
+  def parent_class_name_in_contextparent_class_name_in_context72,0
+  def parent_variable_name_in_contextparent_variable_name_in_context76,0
+  def parent_table_nameparent_table_name80,0
+  def table_nametable_name84,0
+  def replacement_for(string)replacement_for88,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/scaffolding/transformer.rb,8500
+class Scaffolding::TransformerTransformer5,0
+class Scaffolding::TransformerScaffolding::Transformer5,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findchild6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findchild=6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findparent6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findparent=6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findparents6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findparents=6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findclass_names_transformer6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findclass_names_transformer=6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findcli_options6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findcli_options=6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findadditional_steps6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findadditional_steps=6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findnamespace6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findnamespace=6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findsuppress_could_not_find6,0
+  attr_accessor :child, :parent, :parents, :class_names_transformer, :cli_options, :additional_steps, :namespace, :suppress_could_not_findsuppress_could_not_find=6,0
+  def initialize(child, parents, cli_options = {})initialize8,0
+  RUBY_NEW_FIELDS_PROCESSING_HOOK = "# 🚅 super scaffolding will insert processing for new fields above this line."RUBY_NEW_FIELDS_PROCESSING_HOOK18,0
+  RUBY_NEW_FIELDS_PROCESSING_HOOK = "# 🚅 super scaffolding will insert processing for new fields above this line."Scaffolding::Transformer::RUBY_NEW_FIELDS_PROCESSING_HOOK18,0
+  RUBY_NEW_ARRAYS_HOOK = "# 🚅 super scaffolding will insert new arrays above this line."RUBY_NEW_ARRAYS_HOOK19,0
+  RUBY_NEW_ARRAYS_HOOK = "# 🚅 super scaffolding will insert new arrays above this line."Scaffolding::Transformer::RUBY_NEW_ARRAYS_HOOK19,0
+  RUBY_NEW_FIELDS_HOOK = "# 🚅 super scaffolding will insert new fields above this line."RUBY_NEW_FIELDS_HOOK20,0
+  RUBY_NEW_FIELDS_HOOK = "# 🚅 super scaffolding will insert new fields above this line."Scaffolding::Transformer::RUBY_NEW_FIELDS_HOOK20,0
+  RUBY_ADDITIONAL_NEW_FIELDS_HOOK = "# 🚅 super scaffolding will also insert new fields above this line."RUBY_ADDITIONAL_NEW_FIELDS_HOOK21,0
+  RUBY_ADDITIONAL_NEW_FIELDS_HOOK = "# 🚅 super scaffolding will also insert new fields above this line."Scaffolding::Transformer::RUBY_ADDITIONAL_NEW_FIELDS_HOOK21,0
+  RUBY_EVEN_MORE_NEW_FIELDS_HOOK = "# 🚅 super scaffolding will additionally insert new fields above this line."RUBY_EVEN_MORE_NEW_FIELDS_HOOK22,0
+  RUBY_EVEN_MORE_NEW_FIELDS_HOOK = "# 🚅 super scaffolding will additionally insert new fields above this line."Scaffolding::Transformer::RUBY_EVEN_MORE_NEW_FIELDS_HOOK22,0
+  ENDPOINTS_HOOK = "# 🚅 super scaffolding will mount new endpoints above this line."ENDPOINTS_HOOK23,0
+  ENDPOINTS_HOOK = "# 🚅 super scaffolding will mount new endpoints above this line."Scaffolding::Transformer::ENDPOINTS_HOOK23,0
+  ERB_NEW_FIELDS_HOOK = "<%#{RUBY_NEW_FIELDS_HOOK} %>"ERB_NEW_FIELDS_HOOK24,0
+  ERB_NEW_FIELDS_HOOK = "<%#{RUBY_NEW_FIELDS_HOOK} %>"Scaffolding::Transformer::ERB_NEW_FIELDS_HOOK24,0
+  CONCERNS_HOOK = "# 🚅 add concerns above."CONCERNS_HOOK25,0
+  CONCERNS_HOOK = "# 🚅 add concerns above."Scaffolding::Transformer::CONCERNS_HOOK25,0
+  ATTR_ACCESSORS_HOOK = "# 🚅 add attribute accessors above."ATTR_ACCESSORS_HOOK26,0
+  ATTR_ACCESSORS_HOOK = "# 🚅 add attribute accessors above."Scaffolding::Transformer::ATTR_ACCESSORS_HOOK26,0
+  BELONGS_TO_HOOK = "# 🚅 add belongs_to associations above."BELONGS_TO_HOOK27,0
+  BELONGS_TO_HOOK = "# 🚅 add belongs_to associations above."Scaffolding::Transformer::BELONGS_TO_HOOK27,0
+  HAS_MANY_HOOK = "# 🚅 add has_many associations above."HAS_MANY_HOOK28,0
+  HAS_MANY_HOOK = "# 🚅 add has_many associations above."Scaffolding::Transformer::HAS_MANY_HOOK28,0
+  OAUTH_PROVIDERS_HOOK = "# 🚅 add oauth providers above."OAUTH_PROVIDERS_HOOK29,0
+  OAUTH_PROVIDERS_HOOK = "# 🚅 add oauth providers above."Scaffolding::Transformer::OAUTH_PROVIDERS_HOOK29,0
+  HAS_ONE_HOOK = "# 🚅 add has_one associations above."HAS_ONE_HOOK30,0
+  HAS_ONE_HOOK = "# 🚅 add has_one associations above."Scaffolding::Transformer::HAS_ONE_HOOK30,0
+  SCOPES_HOOK = "# 🚅 add scopes above."SCOPES_HOOK31,0
+  SCOPES_HOOK = "# 🚅 add scopes above."Scaffolding::Transformer::SCOPES_HOOK31,0
+  VALIDATIONS_HOOK = "# 🚅 add validations above."VALIDATIONS_HOOK32,0
+  VALIDATIONS_HOOK = "# 🚅 add validations above."Scaffolding::Transformer::VALIDATIONS_HOOK32,0
+  CALLBACKS_HOOK = "# 🚅 add callbacks above."CALLBACKS_HOOK33,0
+  CALLBACKS_HOOK = "# 🚅 add callbacks above."Scaffolding::Transformer::CALLBACKS_HOOK33,0
+  DELEGATIONS_HOOK = "# 🚅 add delegations above."DELEGATIONS_HOOK34,0
+  DELEGATIONS_HOOK = "# 🚅 add delegations above."Scaffolding::Transformer::DELEGATIONS_HOOK34,0
+  METHODS_HOOK = "# 🚅 add methods above."METHODS_HOOK35,0
+  METHODS_HOOK = "# 🚅 add methods above."Scaffolding::Transformer::METHODS_HOOK35,0
+  def encode_double_replacement_fix(string)encode_double_replacement_fix37,0
+  def decode_double_replacement_fix(string)decode_double_replacement_fix41,0
+  def transform_string(string)transform_string45,0
+  def resolve_template_path(file)resolve_template_path111,0
+  def get_transformed_file_content(file)get_transformed_file_content123,0
+  def scaffold_file(file)scaffold_file201,0
+  def scaffold_directory(directory)scaffold_directory220,0
+  def add_line_to_yml_file(file, content, location_array)add_line_to_yml_file240,0
+  def add_line_to_file(file, content, hook, options = {})add_line_to_file268,0
+  def scaffold_add_line_to_file(file, content, hook, options = {})scaffold_add_line_to_file342,0
+  def replace_line_in_file(file, content, in_place_of)replace_line_in_file349,0
+  def scaffold_replace_line_in_file(file, content, in_place_of)scaffold_replace_line_in_file361,0
+  def build_ability_line(class_names = nil)build_ability_line373,0
+  def build_conversation_ability_linebuild_conversation_ability_line410,0
+  def add_scaffolding_hooks_to_modeladd_scaffolding_hooks_to_model414,0
+  def add_ability_line_to_roles_yml(class_names = nil)add_ability_line_to_roles_yml450,0
+  def build_factory_setupbuild_factory_setup459,0
+  def replace_in_file(file, before, after, target_regexp = nil)replace_in_file488,0
+  def restart_serverrestart_server503,0
+  def add_locale_helper_export_fixadd_locale_helper_export_fix509,0
+  def scaffold_new_breadcrumbs(child, parents)scaffold_new_breadcrumbs527,0
+  def add_has_many_associationadd_has_many_association536,0
+  def add_has_many_through_associations(has_many_through_transformer)add_has_many_through_associations561,0
+  def add_attributes_to_various_views(attributes, scaffolding_options = {})add_attributes_to_various_views568,0
+  def add_additional_step(color, message)add_additional_step1199,0
+  def scaffold_crud(attributes)scaffold_crud1203,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/scaffolding/script.rb,208
+def standard_protipstandard_protip29,0
+def check_required_options_for_attributes(scaffolding_type, attributes, child, parent = nil)check_required_options_for_attributes34,0
+def show_usageshow_usage82,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/scaffolding/oauth_providers.rb,755
+def legacy_resolve_template_path(file)legacy_resolve_template_path1,0
+def legacy_replace_in_file(file, before, after)legacy_replace_in_file13,0
+def legacy_add_line_to_file(file, content, hook, child, parent, options = {})legacy_add_line_to_file20,0
+def encode_double_replacement_fix(string)encode_double_replacement_fix67,0
+def decode_double_replacement_fix(string)decode_double_replacement_fix71,0
+def oauth_scaffold_directory(directory, options)oauth_scaffold_directory75,0
+def oauth_scaffold_file(file, options)oauth_scaffold_file94,0
+def oauth_transform_string(string, options)oauth_transform_string145,0
+def oauth_scaffold_add_line_to_file(file, content, after, options, additional_options = {})oauth_scaffold_add_line_to_file172,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/scaffolding/block_manipulator.rb,665
+class Scaffolding::BlockManipulatorBlockManipulator1,0
+class Scaffolding::BlockManipulatorScaffolding::BlockManipulator1,0
+  attr_accessor :lineslines2,0
+  attr_accessor :lineslines=2,0
+  def initialize(filepath)initialize4,0
+  def wrap_block(starting:, with:)wrap_block15,0
+  def insert(content, within: nil, after: nil, before: nil, after_block: nil, append: false)insert48,0
+  def insert_line(content, insert_at_index)insert_line90,0
+  def insert_block(block_content, after_block:)insert_block103,0
+  def writewrite110,0
+  def find_block_start(starting_string)find_block_start114,0
+  def find_block_end(starting_from:)find_block_end127,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/scaffolding/routes_file_manipulator.rb,2431
+class Scaffolding::RoutesFileManipulatorRoutesFileManipulator1,0
+class Scaffolding::RoutesFileManipulatorScaffolding::RoutesFileManipulator1,0
+  attr_accessor :child, :parent, :lines, :transformer_optionschild2,0
+  attr_accessor :child, :parent, :lines, :transformer_optionschild=2,0
+  attr_accessor :child, :parent, :lines, :transformer_optionsparent2,0
+  attr_accessor :child, :parent, :lines, :transformer_optionsparent=2,0
+  attr_accessor :child, :parent, :lines, :transformer_optionslines2,0
+  attr_accessor :child, :parent, :lines, :transformer_optionslines=2,0
+  attr_accessor :child, :parent, :lines, :transformer_optionstransformer_options2,0
+  attr_accessor :child, :parent, :lines, :transformer_optionstransformer_options=2,0
+  def initialize(filename, child, parent, transformer_options = {})initialize4,0
+  def child_partschild_parts12,0
+  def parent_partsparent_parts16,0
+  def common_namespacescommon_namespaces20,0
+  def divergent_partsdivergent_parts49,0
+  def find_namespaces(namespaces, within = nil)find_namespaces65,0
+  def indentation_of(line_number)indentation_of82,0
+  def find_block_parent(starting_line_number)find_block_parent88,0
+  def find_block_end(starting_line_number)find_block_end100,0
+  def insert_before(new_lines, line_number, options = {})insert_before111,0
+  def insert_after(new_lines, line_number, options = {})insert_after119,0
+  def insert_in_namespace(namespaces, new_lines, within = nil)insert_in_namespace127,0
+  def find_or_create_namespaces(namespaces, within = nil)find_or_create_namespaces138,0
+  def find(needle, within = nil)find159,0
+  def find_in_namespace(needle, namespaces, within = nil, ignore = nil)find_in_namespace167,0
+  def find_resource_block(parts, options = {})find_resource_block192,0
+  def find_resource(parts, options = {})find_resource200,0
+  def find_or_create_resource(parts, options = {})find_or_create_resource207,0
+  def top_level_namespace_block_lines(within)top_level_namespace_block_lines223,0
+  def find_or_create_resource_block(parts, options = {})find_or_create_resource_block256,0
+  def lines_within(within)lines_within261,0
+  def find_or_convert_resource_block(parent_resource, options = {})find_or_convert_resource_block266,0
+  def insert(lines_to_add, within)insert285,0
+  def apply(base_namespaces)apply299,0
+  def define_concernsdefine_concerns370,0
+  def writewrite378,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/bullet_train/super_scaffolding.rb,1001
+module BulletTrainBulletTrain12,0
+  module SuperScaffoldingSuperScaffolding13,0
+  module SuperScaffoldingBulletTrain::SuperScaffolding13,0
+    mattr_accessor :template_paths, default: []template_paths14,0
+    mattr_accessor :template_paths, default: []template_paths=14,0
+    mattr_accessor :template_paths, default: [][:assoc, ["default:", 14], nil]14,0
+    mattr_accessor :template_paths, default: [][:assoc, ["default:", 14], nil]=14,0
+    mattr_accessor :scaffolders, default: {scaffolders15,0
+    mattr_accessor :scaffolders, default: {scaffolders=15,0
+    mattr_accessor :scaffolders, default: {[:assoc, ["default:", 15], [["crud", 16], ["crud-field", 17], ["join-model", 18], ["oauth-provider", 19]]]15,0
+    mattr_accessor :scaffolders, default: {[:assoc, ["default:", 15], [["crud", 16], ["crud-field", 17], ["join-model", 18], ["oauth-provider", 19]]]=15,0
+    class RunnerRunner22,0
+    class RunnerBulletTrain::SuperScaffolding::Runner22,0
+      def runrun23,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/bullet_train/terminal_commands.rb,266
+module TerminalCommandsTerminalCommands1,0
+  def self.open_file_or_link(file_or_link, options = {})open_file_or_link2,0
+  def self.osos11,0
+  def self.macosx?macosx?15,0
+  def self.linux?linux?19,0
+  def self.macosxmacosx23,0
+  def self.linuxlinux27,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/bullet_train/super_scaffolding/version.rb,243
+module BulletTrainBulletTrain1,0
+  module SuperScaffoldingSuperScaffolding2,0
+  module SuperScaffoldingBulletTrain::SuperScaffolding2,0
+    VERSION = "1.0.26"VERSION3,0
+    VERSION = "1.0.26"BulletTrain::SuperScaffolding::VERSION3,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/bullet_train/super_scaffolding/scaffolders/crud_field_scaffolder.rb,457
+module BulletTrainBulletTrain1,0
+  module SuperScaffoldingSuperScaffolding2,0
+  module SuperScaffoldingBulletTrain::SuperScaffolding2,0
+    module ScaffoldersScaffolders3,0
+    module ScaffoldersBulletTrain::SuperScaffolding::Scaffolders3,0
+      class CrudFieldScaffolder < ScaffolderCrudFieldScaffolder4,0
+      class CrudFieldScaffolder < ScaffolderBulletTrain::SuperScaffolding::Scaffolders::CrudFieldScaffolder4,0
+        def runrun5,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/bullet_train/super_scaffolding/scaffolders/oauth_provider_scaffolder.rb,473
+module BulletTrainBulletTrain1,0
+  module SuperScaffoldingSuperScaffolding2,0
+  module SuperScaffoldingBulletTrain::SuperScaffolding2,0
+    module ScaffoldersScaffolders3,0
+    module ScaffoldersBulletTrain::SuperScaffolding::Scaffolders3,0
+      class OauthProviderScaffolder < ScaffolderOauthProviderScaffolder4,0
+      class OauthProviderScaffolder < ScaffolderBulletTrain::SuperScaffolding::Scaffolders::OauthProviderScaffolder4,0
+        def runrun5,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/bullet_train/super_scaffolding/scaffolders/join_model_scaffolder.rb,457
+module BulletTrainBulletTrain1,0
+  module SuperScaffoldingSuperScaffolding2,0
+  module SuperScaffoldingBulletTrain::SuperScaffolding2,0
+    module ScaffoldersScaffolders3,0
+    module ScaffoldersBulletTrain::SuperScaffolding::Scaffolders3,0
+      class JoinModelScaffolder < ScaffolderJoinModelScaffolder4,0
+      class JoinModelScaffolder < ScaffolderBulletTrain::SuperScaffolding::Scaffolders::JoinModelScaffolder4,0
+        def runrun5,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/bullet_train/super_scaffolding/scaffolders/crud_scaffolder.rb,437
+module BulletTrainBulletTrain1,0
+  module SuperScaffoldingSuperScaffolding2,0
+  module SuperScaffoldingBulletTrain::SuperScaffolding2,0
+    module ScaffoldersScaffolders3,0
+    module ScaffoldersBulletTrain::SuperScaffolding::Scaffolders3,0
+      class CrudScaffolder < ScaffolderCrudScaffolder4,0
+      class CrudScaffolder < ScaffolderBulletTrain::SuperScaffolding::Scaffolders::CrudScaffolder4,0
+        def runrun5,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/bullet_train/super_scaffolding/scaffolder.rb,367
+module BulletTrainBulletTrain1,0
+  module SuperScaffoldingSuperScaffolding2,0
+  module SuperScaffoldingBulletTrain::SuperScaffolding2,0
+    class ScaffolderScaffolder3,0
+    class ScaffolderBulletTrain::SuperScaffolding::Scaffolder3,0
+      attr_accessor :argvargv4,0
+      attr_accessor :argvargv=4,0
+      def initialize(argv, options)initialize6,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/bullet_train/super_scaffolding/exceptions.rb,279
+class BulletTrain::SuperScaffolding::CannotFindParentResourceException < RuntimeErrorCannotFindParentResourceException1,0
+class BulletTrain::SuperScaffolding::CannotFindParentResourceException < RuntimeErrorBulletTrain::SuperScaffolding::CannotFindParentResourceException1,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/bullet_train/super_scaffolding/engine.rb,265
+module BulletTrainBulletTrain1,0
+  module SuperScaffoldingSuperScaffolding2,0
+  module SuperScaffoldingBulletTrain::SuperScaffolding2,0
+    class Engine < ::Rails::EngineEngine3,0
+    class Engine < ::Rails::EngineBulletTrain::SuperScaffolding::Engine3,0
+
+tmp/gems/bullet_train-super_scaffolding/lib/scaffolding.rb,35
+module ScaffoldingScaffolding1,0
+
+tmp/gems/bullet_train-super_scaffolding/app/models/scaffolding/completely_concrete.rb,188
+module Scaffolding::CompletelyConcreteCompletelyConcrete1,0
+module Scaffolding::CompletelyConcreteScaffolding::CompletelyConcrete1,0
+  def self.table_name_prefixtable_name_prefix2,0
+
+tmp/gems/bullet_train-super_scaffolding/app/models/scaffolding/completely_concrete/tangible_things/assignment.rb,1457
+class Scaffolding::CompletelyConcrete::TangibleThings::Assignment < ApplicationRecordAssignment1,0
+class Scaffolding::CompletelyConcrete::TangibleThings::Assignment < ApplicationRecordScaffolding::CompletelyConcrete::TangibleThings::Assignment1,0
+  belongs_to :tangible_thing, class_name: "Scaffolding::CompletelyConcrete::TangibleThing"tangible_thing6,0
+  belongs_to :tangible_thing, class_name: "Scaffolding::CompletelyConcrete::TangibleThing"tangible_thing=6,0
+  belongs_to :tangible_thing, class_name: "Scaffolding::CompletelyConcrete::TangibleThing"build_tangible_thing6,0
+  belongs_to :tangible_thing, class_name: "Scaffolding::CompletelyConcrete::TangibleThing"create_tangible_thing6,0
+  belongs_to :tangible_thing, class_name: "Scaffolding::CompletelyConcrete::TangibleThing"create_tangible_thing!6,0
+  belongs_to :membership, class_name: "Membership"membership7,0
+  belongs_to :membership, class_name: "Membership"membership=7,0
+  belongs_to :membership, class_name: "Membership"build_membership7,0
+  belongs_to :membership, class_name: "Membership"create_membership7,0
+  belongs_to :membership, class_name: "Membership"create_membership!7,0
+  has_one :team, through: :tangible_thingteam12,0
+  has_one :team, through: :tangible_thingteam=12,0
+  has_one :team, through: :tangible_thingbuild_team12,0
+  has_one :team, through: :tangible_thingcreate_team12,0
+  has_one :team, through: :tangible_thingcreate_team!12,0
+
+tmp/gems/bullet_train-super_scaffolding/app/models/scaffolding/completely_concrete/tangible_things.rb,232
+module Scaffolding::CompletelyConcrete::TangibleThingsTangibleThings1,0
+module Scaffolding::CompletelyConcrete::TangibleThingsScaffolding::CompletelyConcrete::TangibleThings1,0
+  def self.table_name_prefixtable_name_prefix2,0
+
+tmp/gems/bullet_train-super_scaffolding/app/models/scaffolding/completely_concrete/tangible_thing.rb,2525
+class Scaffolding::CompletelyConcrete::TangibleThing < ApplicationRecordTangibleThing1,0
+class Scaffolding::CompletelyConcrete::TangibleThing < ApplicationRecordScaffolding::CompletelyConcrete::TangibleThing1,0
+  belongs_to :absolutely_abstract_creative_concept, class_name: "Scaffolding::AbsolutelyAbstract::CreativeConcept"absolutely_abstract_creative_concept6,0
+  belongs_to :absolutely_abstract_creative_concept, class_name: "Scaffolding::AbsolutelyAbstract::CreativeConcept"absolutely_abstract_creative_concept=6,0
+  belongs_to :absolutely_abstract_creative_concept, class_name: "Scaffolding::AbsolutelyAbstract::CreativeConcept"build_absolutely_abstract_creative_concept6,0
+  belongs_to :absolutely_abstract_creative_concept, class_name: "Scaffolding::AbsolutelyAbstract::CreativeConcept"create_absolutely_abstract_creative_concept6,0
+  belongs_to :absolutely_abstract_creative_concept, class_name: "Scaffolding::AbsolutelyAbstract::CreativeConcept"create_absolutely_abstract_creative_concept!6,0
+  has_many :assignments, class_name: "Scaffolding::CompletelyConcrete::TangibleThings::Assignment", dependent: :destroyassignments9,0
+  has_many :assignments, class_name: "Scaffolding::CompletelyConcrete::TangibleThings::Assignment", dependent: :destroyassignments=9,0
+  has_many :assignments, class_name: "Scaffolding::CompletelyConcrete::TangibleThings::Assignment", dependent: :destroyassignment_ids9,0
+  has_many :assignments, class_name: "Scaffolding::CompletelyConcrete::TangibleThings::Assignment", dependent: :destroyassignment_ids=9,0
+  has_many :memberships, through: :assignmentsmemberships10,0
+  has_many :memberships, through: :assignmentsmemberships=10,0
+  has_many :memberships, through: :assignmentsmembership_ids10,0
+  has_many :memberships, through: :assignmentsmembership_ids=10,0
+  has_one :team, through: :absolutely_abstract_creative_conceptteam16,0
+  has_one :team, through: :absolutely_abstract_creative_conceptteam=16,0
+  has_one :team, through: :absolutely_abstract_creative_conceptbuild_team16,0
+  has_one :team, through: :absolutely_abstract_creative_conceptcreate_team16,0
+  has_one :team, through: :absolutely_abstract_creative_conceptcreate_team!16,0
+  attr_accessor :file_field_value_removalfile_field_value_removal30,0
+  attr_accessor :file_field_value_removalfile_field_value_removal=30,0
+  def collectioncollection32,0
+  def file_field_value_removal?file_field_value_removal?36,0
+  def remove_file_field_valueremove_file_field_value40,0
+
+tmp/gems/bullet_train-super_scaffolding/app/models/scaffolding/absolutely_abstract/creative_concepts.rb,240
+module Scaffolding::AbsolutelyAbstract::CreativeConceptsCreativeConcepts1,0
+module Scaffolding::AbsolutelyAbstract::CreativeConceptsScaffolding::AbsolutelyAbstract::CreativeConcepts1,0
+  def self.table_name_prefixtable_name_prefix2,0
+
+tmp/gems/bullet_train-super_scaffolding/app/models/scaffolding/absolutely_abstract/creative_concepts/collaborator.rb,1421
+class Scaffolding::AbsolutelyAbstract::CreativeConcepts::Collaborator < ApplicationRecordCollaborator1,0
+class Scaffolding::AbsolutelyAbstract::CreativeConcepts::Collaborator < ApplicationRecordScaffolding::AbsolutelyAbstract::CreativeConcepts::Collaborator1,0
+  belongs_to :creative_conceptcreative_concept5,0
+  belongs_to :creative_conceptcreative_concept=5,0
+  belongs_to :creative_conceptbuild_creative_concept5,0
+  belongs_to :creative_conceptcreate_creative_concept5,0
+  belongs_to :creative_conceptcreate_creative_concept!5,0
+  belongs_to :membershipmembership6,0
+  belongs_to :membershipmembership=6,0
+  belongs_to :membershipbuild_membership6,0
+  belongs_to :membershipcreate_membership6,0
+  belongs_to :membershipcreate_membership!6,0
+  has_one :team, through: :creative_conceptteam11,0
+  has_one :team, through: :creative_conceptteam=11,0
+  has_one :team, through: :creative_conceptbuild_team11,0
+  has_one :team, through: :creative_conceptcreate_team11,0
+  has_one :team, through: :creative_conceptcreate_team!11,0
+  has_one :user, through: :membershipuser12,0
+  has_one :user, through: :membershipuser=12,0
+  has_one :user, through: :membershipbuild_user12,0
+  has_one :user, through: :membershipcreate_user12,0
+  has_one :user, through: :membershipcreate_user!12,0
+  def valid_membershipsvalid_memberships25,0
+  def validate_membershipvalidate_membership29,0
+
+tmp/gems/bullet_train-super_scaffolding/app/models/scaffolding/absolutely_abstract/creative_concept.rb,2415
+class Scaffolding::AbsolutelyAbstract::CreativeConcept < ApplicationRecordCreativeConcept1,0
+class Scaffolding::AbsolutelyAbstract::CreativeConcept < ApplicationRecordScaffolding::AbsolutelyAbstract::CreativeConcept1,0
+  belongs_to :teamteam4,0
+  belongs_to :teamteam=4,0
+  belongs_to :teambuild_team4,0
+  belongs_to :teamcreate_team4,0
+  belongs_to :teamcreate_team!4,0
+  has_many :completely_concrete_tangible_things, class_name: "Scaffolding::CompletelyConcrete::TangibleThing", foreign_key: :absolutely_abstract_creative_concept_id, dependent: :destroycompletely_concrete_tangible_things7,0
+  has_many :completely_concrete_tangible_things, class_name: "Scaffolding::CompletelyConcrete::TangibleThing", foreign_key: :absolutely_abstract_creative_concept_id, dependent: :destroycompletely_concrete_tangible_things=7,0
+  has_many :completely_concrete_tangible_things, class_name: "Scaffolding::CompletelyConcrete::TangibleThing", foreign_key: :absolutely_abstract_creative_concept_id, dependent: :destroycompletely_concrete_tangible_thing_ids7,0
+  has_many :completely_concrete_tangible_things, class_name: "Scaffolding::CompletelyConcrete::TangibleThing", foreign_key: :absolutely_abstract_creative_concept_id, dependent: :destroycompletely_concrete_tangible_thing_ids=7,0
+  has_many :collaborators, class_name: "Scaffolding::AbsolutelyAbstract::CreativeConcepts::Collaborator", dependent: :destroy, foreign_key: :creative_concept_idcollaborators8,0
+  has_many :collaborators, class_name: "Scaffolding::AbsolutelyAbstract::CreativeConcepts::Collaborator", dependent: :destroy, foreign_key: :creative_concept_idcollaborators=8,0
+  has_many :collaborators, class_name: "Scaffolding::AbsolutelyAbstract::CreativeConcepts::Collaborator", dependent: :destroy, foreign_key: :creative_concept_idcollaborator_ids8,0
+  has_many :collaborators, class_name: "Scaffolding::AbsolutelyAbstract::CreativeConcepts::Collaborator", dependent: :destroy, foreign_key: :creative_concept_idcollaborator_ids=8,0
+  has_many :memberships, through: :collaboratorsmemberships9,0
+  has_many :memberships, through: :collaboratorsmemberships=9,0
+  has_many :memberships, through: :collaboratorsmembership_ids9,0
+  has_many :memberships, through: :collaboratorsmembership_ids=9,0
+  def adminsadmins25,0
+  def editorseditors29,0
+  def viewersviewers33,0
+  def all_collaboratorsall_collaborators37,0
+
+tmp/gems/bullet_train-super_scaffolding/app/models/scaffolding/absolutely_abstract.rb,188
+module Scaffolding::AbsolutelyAbstractAbsolutelyAbstract1,0
+module Scaffolding::AbsolutelyAbstractScaffolding::AbsolutelyAbstract1,0
+  def self.table_name_prefixtable_name_prefix2,0
+
+tmp/gems/bullet_train-super_scaffolding/app/models/scaffolding.rb,86
+module ScaffoldingScaffolding1,0
+  def self.table_name_prefixtable_name_prefix2,0
+
+tmp/gems/bullet_train-super_scaffolding/app/serializers/api/v1/scaffolding/completely_concrete/tangible_thing_serializer.rb,1200
+class Api::V1::Scaffolding::CompletelyConcrete::TangibleThingSerializer < Api::V1::ApplicationSerializerTangibleThingSerializer1,0
+class Api::V1::Scaffolding::CompletelyConcrete::TangibleThingSerializer < Api::V1::ApplicationSerializerApi::V1::Scaffolding::CompletelyConcrete::TangibleThingSerializer1,0
+  belongs_to :absolutely_abstract_creative_concept, serializer: Api::V1::Scaffolding::AbsolutelyAbstract::CreativeConceptSerializerabsolutely_abstract_creative_concept28,0
+  belongs_to :absolutely_abstract_creative_concept, serializer: Api::V1::Scaffolding::AbsolutelyAbstract::CreativeConceptSerializerabsolutely_abstract_creative_concept=28,0
+  belongs_to :absolutely_abstract_creative_concept, serializer: Api::V1::Scaffolding::AbsolutelyAbstract::CreativeConceptSerializerbuild_absolutely_abstract_creative_concept28,0
+  belongs_to :absolutely_abstract_creative_concept, serializer: Api::V1::Scaffolding::AbsolutelyAbstract::CreativeConceptSerializercreate_absolutely_abstract_creative_concept28,0
+  belongs_to :absolutely_abstract_creative_concept, serializer: Api::V1::Scaffolding::AbsolutelyAbstract::CreativeConceptSerializercreate_absolutely_abstract_creative_concept!28,0
+
+tmp/gems/bullet_train-super_scaffolding/app/serializers/api/v1/scaffolding/absolutely_abstract/creative_concept_serializer.rb,1348
+class Api::V1::Scaffolding::AbsolutelyAbstract::CreativeConceptSerializer < Api::V1::ApplicationSerializerCreativeConceptSerializer1,0
+class Api::V1::Scaffolding::AbsolutelyAbstract::CreativeConceptSerializer < Api::V1::ApplicationSerializerApi::V1::Scaffolding::AbsolutelyAbstract::CreativeConceptSerializer1,0
+  belongs_to :team, serializer: Api::V1::TeamSerializerteam12,0
+  belongs_to :team, serializer: Api::V1::TeamSerializerteam=12,0
+  belongs_to :team, serializer: Api::V1::TeamSerializerbuild_team12,0
+  belongs_to :team, serializer: Api::V1::TeamSerializercreate_team12,0
+  belongs_to :team, serializer: Api::V1::TeamSerializercreate_team!12,0
+  has_many :completely_concrete_tangible_things, serializer: Api::V1::Scaffolding::CompletelyConcrete::TangibleThingSerializercompletely_concrete_tangible_things13,0
+  has_many :completely_concrete_tangible_things, serializer: Api::V1::Scaffolding::CompletelyConcrete::TangibleThingSerializercompletely_concrete_tangible_things=13,0
+  has_many :completely_concrete_tangible_things, serializer: Api::V1::Scaffolding::CompletelyConcrete::TangibleThingSerializercompletely_concrete_tangible_thing_ids13,0
+  has_many :completely_concrete_tangible_things, serializer: Api::V1::Scaffolding::CompletelyConcrete::TangibleThingSerializercompletely_concrete_tangible_thing_ids=13,0
+
+tmp/gems/bullet_train-super_scaffolding/app/controllers/api/v1/scaffolding/completely_concrete.rb,164
+module Api::V1::Scaffolding::CompletelyConcreteCompletelyConcrete1,0
+module Api::V1::Scaffolding::CompletelyConcreteApi::V1::Scaffolding::CompletelyConcrete1,0
+
+tmp/gems/bullet_train-super_scaffolding/app/controllers/api/v1/scaffolding/completely_concrete/tangible_things_endpoint.rb,270
+class Api::V1::Scaffolding::CompletelyConcrete::TangibleThingsEndpoint < Api::V1::RootTangibleThingsEndpoint1,0
+class Api::V1::Scaffolding::CompletelyConcrete::TangibleThingsEndpoint < Api::V1::RootApi::V1::Scaffolding::CompletelyConcrete::TangibleThingsEndpoint1,0
+
+tmp/gems/bullet_train-super_scaffolding/app/controllers/api/v1/scaffolding/absolutely_abstract/creative_concepts_endpoint.rb,278
+class Api::V1::Scaffolding::AbsolutelyAbstract::CreativeConceptsEndpoint < Api::V1::RootCreativeConceptsEndpoint1,0
+class Api::V1::Scaffolding::AbsolutelyAbstract::CreativeConceptsEndpoint < Api::V1::RootApi::V1::Scaffolding::AbsolutelyAbstract::CreativeConceptsEndpoint1,0
+
+tmp/gems/bullet_train-super_scaffolding/app/controllers/api/v1/scaffolding/absolutely_abstract.rb,164
+module Api::V1::Scaffolding::AbsolutelyAbstractAbsolutelyAbstract1,0
+module Api::V1::Scaffolding::AbsolutelyAbstractApi::V1::Scaffolding::AbsolutelyAbstract1,0
+
+tmp/gems/bullet_train-super_scaffolding/app/controllers/api/v1/scaffolding.rb,97
+module Api::V1::ScaffoldingScaffolding1,0
+module Api::V1::ScaffoldingApi::V1::Scaffolding1,0
+
+tmp/gems/bullet_train-super_scaffolding/app/controllers/api/v1.rb,49
+module Api::V1V11,0
+module Api::V1Api::V11,0
+
+tmp/gems/bullet_train-super_scaffolding/app/controllers/account/scaffolding/completely_concrete/tangible_things_controller.rb,527
+class Account::Scaffolding::CompletelyConcrete::TangibleThingsController < Account::ApplicationControllerTangibleThingsController1,0
+class Account::Scaffolding::CompletelyConcrete::TangibleThingsController < Account::ApplicationControllerAccount::Scaffolding::CompletelyConcrete::TangibleThingsController1,0
+  def indexindex6,0
+  def showshow13,0
+  def newnew17,0
+  def editedit21,0
+  def createcreate26,0
+  def updateupdate40,0
+  def destroydestroy54,0
+  def tangible_thing_paramstangible_thing_params65,0
+
+tmp/gems/bullet_train-super_scaffolding/app/controllers/account/scaffolding/absolutely_abstract/creative_concepts_controller.rb,539
+class Account::Scaffolding::AbsolutelyAbstract::CreativeConceptsController < Account::ApplicationControllerCreativeConceptsController1,0
+class Account::Scaffolding::AbsolutelyAbstract::CreativeConceptsController < Account::ApplicationControllerAccount::Scaffolding::AbsolutelyAbstract::CreativeConceptsController1,0
+  def indexindex8,0
+  def showshow16,0
+  def newnew20,0
+  def editedit24,0
+  def createcreate29,0
+  def updateupdate47,0
+  def destroydestroy61,0
+  def creative_concept_paramscreative_concept_params72,0
+
+tmp/gems/bullet_train-super_scaffolding/app/controllers/account/scaffolding/absolutely_abstract/creative_concepts/collaborators_controller.rb,573
+class Account::Scaffolding::AbsolutelyAbstract::CreativeConcepts::CollaboratorsController < Account::ApplicationControllerCollaboratorsController1,0
+class Account::Scaffolding::AbsolutelyAbstract::CreativeConcepts::CollaboratorsController < Account::ApplicationControllerAccount::Scaffolding::AbsolutelyAbstract::CreativeConcepts::CollaboratorsController1,0
+  def indexindex6,0
+  def showshow12,0
+  def newnew17,0
+  def editedit21,0
+  def createcreate26,0
+  def updateupdate40,0
+  def destroydestroy54,0
+  def collaborator_paramscollaborator_params65,0
+
+tmp/gems/bullet_train-super_scaffolding/app/controllers/concerns/scaffolding/absolutely_abstract/creative_concepts/controller_support.rb,371
+module Scaffolding::AbsolutelyAbstract::CreativeConcepts::ControllerSupportControllerSupport1,0
+module Scaffolding::AbsolutelyAbstract::CreativeConcepts::ControllerSupportScaffolding::AbsolutelyAbstract::CreativeConcepts::ControllerSupport1,0
+  def ensure_current_user_can_manage_creative_concept(creative_concept)ensure_current_user_can_manage_creative_concept4,0
+
+tmp/gems/bullet_train-super_scaffolding/app/controllers/api.rb,19
+module ApiApi1,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20191021215724_add_example_fields_to_scaffolding_things.rb,137
+class AddExampleFieldsToScaffoldingThings < ActiveRecord::Migration[6.0]AddExampleFieldsToScaffoldingThings1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20200101203645_drop_scaffolding_things.rb,121
+class DropScaffoldingThings < ActiveRecord::Migration[6.0]DropScaffoldingThings1,0
+  def upup2,0
+  def downdown6,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20191204020913_create_scaffolding_completely_concrete_tangible_things.rb,165
+class CreateScaffoldingCompletelyConcreteTangibleThings < ActiveRecord::Migration[6.0]CreateScaffoldingCompletelyConcreteTangibleThings1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20191204020251_create_scaffolding_absolutely_abstract_creative_concepts.rb,169
+class CreateScaffoldingAbsolutelyAbstractCreativeConcepts < ActiveRecord::Migration[6.0]CreateScaffoldingAbsolutelyAbstractCreativeConcepts1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20190124040656_add_csv_import_to_scaffolding_things.rb,129
+class AddCsvImportToScaffoldingThings < ActiveRecord::Migration[5.2]AddCsvImportToScaffoldingThings1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20210101231429_add_roles_to_scaffolding_absolutely_abstract_creative_concepts_collaborators.rb,203
+class AddRolesToScaffoldingAbsolutelyAbstractCreativeConceptsCollaborators < ActiveRecord::Migration[6.1]AddRolesToScaffoldingAbsolutelyAbstractCreativeConceptsCollaborators1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20191021233425_add_ckeditor_value_to_scaffolding_things.rb,137
+class AddCkeditorValueToScaffoldingThings < ActiveRecord::Migration[6.0]AddCkeditorValueToScaffoldingThings1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20191225224034_add_sort_order_to_scaffolding_completely_concrete_tangible_things.rb,181
+class AddSortOrderToScaffoldingCompletelyConcreteTangibleThings < ActiveRecord::Migration[6.0]AddSortOrderToScaffoldingCompletelyConcreteTangibleThings1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20210513013030_add_color_value_to_scaffolding_completely_concrete_tangible_things.rb,183
+class AddColorValueToScaffoldingCompletelyConcreteTangibleThings < ActiveRecord::Migration[6.1]AddColorValueToScaffoldingCompletelyConcreteTangibleThings1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20210602230736_add_option_fields_to_scaffolding_completely_concrete_tangible_things.rb,187
+class AddOptionFieldsToScaffoldingCompletelyConcreteTangibleThings < ActiveRecord::Migration[6.1]AddOptionFieldsToScaffoldingCompletelyConcreteTangibleThings1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20210101210524_create_scaffolding_absolutely_abstract_creative_concepts_collaborators.rb,195
+class CreateScaffoldingAbsolutelyAbstractCreativeConceptsCollaborators < ActiveRecord::Migration[6.1]CreateScaffoldingAbsolutelyAbstractCreativeConceptsCollaborators1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-super_scaffolding/db/migrate/20210224234445_remove_select_value_from_scaffolding_completely_concrete_tangible_things.rb,195
+class RemoveSelectValueFromScaffoldingCompletelyConcreteTangibleThings < ActiveRecord::Migration[6.1]RemoveSelectValueFromScaffoldingCompletelyConcreteTangibleThings1,0
+  def changechange2,0
+
+tmp/gems/bullet_train-themes-light/lib/bullet_train/themes/light/version.rb,279
+module BulletTrainBulletTrain1,0
+  module ThemesThemes2,0
+  module ThemesBulletTrain::Themes2,0
+    module LightLight3,0
+    module LightBulletTrain::Themes::Light3,0
+      VERSION = "1.0.15"VERSION4,0
+      VERSION = "1.0.15"BulletTrain::Themes::Light::VERSION4,0
+
+tmp/gems/bullet_train-themes-light/lib/bullet_train/themes/light/engine.rb,301
+module BulletTrainBulletTrain1,0
+  module ThemesThemes2,0
+  module ThemesBulletTrain::Themes2,0
+    module LightLight3,0
+    module LightBulletTrain::Themes::Light3,0
+      class Engine < ::Rails::EngineEngine4,0
+      class Engine < ::Rails::EngineBulletTrain::Themes::Light::Engine4,0
+
+tmp/gems/bullet_train-themes-light/lib/bullet_train/themes/light.rb,393
+module BulletTrainBulletTrain5,0
+  module ThemesThemes6,0
+  module ThemesBulletTrain::Themes6,0
+    module LightLight7,0
+    module LightBulletTrain::Themes::Light7,0
+      class Theme < BulletTrain::Themes::TailwindCss::ThemeTheme8,0
+      class Theme < BulletTrain::Themes::TailwindCss::ThemeBulletTrain::Themes::Light::Theme8,0
+        def directory_orderdirectory_order9,0
